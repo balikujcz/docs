@@ -12,7 +12,7 @@ const config: Config = {
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/',
-
+    trailingSlash: false,
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
     organizationName: 'balikujcz', // Usually your GitHub org/user name.
@@ -38,15 +38,15 @@ const config: Config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/balikujcz/docs/tree/main/packages/create-docusaurus/templates/shared/',
+                        'https://github.com/balikujcz/docs/blob/main/',
                 },
-                blog: {
-                    showReadingTime: true,
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
-                    editUrl:
-                        'https://github.com/balikujcz/docs/tree/main/packages/create-docusaurus/templates/shared/',
-                },
+                //blog: {
+                //    showReadingTime: true,
+                //    // Please change this to your repo.
+                //    // Remove this to remove the "edit this page" links.
+                //    editUrl:
+                //        'https://github.com/balikujcz/docs/tree/main/packages/create-docusaurus/templates/shared/',
+                //},
                 theme: {
                     customCss: './src/css/custom.css',
                 },
@@ -108,7 +108,7 @@ const config: Config = {
                     items: [
                         {
                             label: 'Úvod do služby balíkuj.cz',
-                            to: '/docs/intro',
+                            to: '/docs/documentation/intro',
                         },
                     ],
                 },
@@ -132,10 +132,10 @@ const config: Config = {
                 {
                     title: 'More',
                     items: [
-                        {
-                            label: 'Blog',
-                            to: '/blog',
-                        },
+                        //{
+                        //    label: 'Blog',
+                        //    to: '/blog',
+                        //},
                         {
                             label: 'GitHub',
                             href: 'https://github.com/facebook/docusaurus',

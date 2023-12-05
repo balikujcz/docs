@@ -28,7 +28,99 @@ const sidebars: SidebarsConfig = {
             type: 'doc',
             id: 'documentation/administration',
             label: 'Administrační rozhraní'
-        }
+        },
+        {
+            type: 'category',
+            label: 'Zásilky',
+            items: [
+                'documentation/packages/package-overview',                
+                'documentation/packages/package-create',                
+                'documentation/packages/package-detail',                
+                'documentation/packages/package-duplicate',                
+                'documentation/packages/package-printing',                
+            ],
+        },
+        {
+            type: 'category',
+            label: 'Objednávky',
+            items: [
+                'documentation/orders/order-overview',
+                'documentation/orders/order-detail',
+                'documentation/orders/order-create-printing',
+            ],
+        },
+        {
+            type: 'category',
+            label: 'Nastavení',
+            items: [
+                {
+                    type: 'category',
+                    label: 'Adresy',
+                    items: [
+                        'documentation/settings/addresses/address-overview',
+                        'documentation/settings/addresses/address-create'
+                    ],
+                },
+                {
+                    type: 'category',
+                    label: 'Aplikace',
+                    items: [
+                        'documentation/settings/application/application-overview',
+                        {
+                            type: 'category',
+                            label: 'Přidání aplikací',
+                            items: [
+                                'documentation/settings/application/application-add/pohoda',
+                                'documentation/settings/application/application-add/upgates',
+                             // 'documentation/settings/application/application-add/shoptet.md',
+
+                            ],
+                        },
+                    ],
+                },
+                {
+                    type: 'category',
+                    label: 'Dopravci',
+                    items: [
+                        'documentation/settings/carriers/carrier-overview',
+                        {
+                            type: 'category',
+                            label: 'Aktivace dopravce',
+                            items: [
+                                'documentation/settings/carriers/activation/cp',
+                                'documentation/settings/carriers/activation/dpd',
+                                'documentation/settings/carriers/activation/geis',
+                                'documentation/settings/carriers/activation/ppl'
+                            ],
+                        },
+                    ],
+                },
+                {
+                    type: 'category',
+                    label: 'Emaily',
+                    items: [
+                        'documentation/settings/emails/email-template',                     
+                        'documentation/settings/emails/email-accounts'                     
+                    ],
+                },
+                {
+                    type: 'category',
+                    label: 'Pravidla',
+                    items: [
+                        'documentation/settings/rules/rule-create',
+                        'documentation/settings/rules/rule-overview',
+                    ],
+                },
+                {
+                    type: 'category',
+                    label: 'Podpora',
+                    items: [
+                        'documentation/settings/support/basic-info',
+                        'documentation/settings/support/discussion',
+                    ],
+                }
+            ],
+        },
     ],
     apiSidebar: [
         {
