@@ -1,0 +1,2 @@
+﻿## Výchozí hodnoty
+Zadejte výchozí hodnoty, které se použijí při automatickém importu/vytvoření zásilek. Více naleznete v sekci [Vytvoření štítků a zásilek](/docs/documentation/orders/order-create-printing).

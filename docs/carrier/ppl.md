@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# PPL CZ
+# PPL CZ s.r.o.
 
-Let's discover **Docusaurus in less than 5 minutes**.
+TODO

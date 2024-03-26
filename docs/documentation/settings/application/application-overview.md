@@ -4,13 +4,7 @@ sidebar_position: 1
 
 # Přehled aplikací
 
-Na této stránce naleznete informace o tom ...
+V přehledu aplikací naleznete seznam aktivovaných aplikací, se kterými v Balíkuj můžete pracovat. Pokud ještě nemáte aktivovánu žádnou aplikaci, můžete 
+si aktivovat novou aplikaci kliknutím na tlačítko **Přidat aplikaci**. 
 
-## h2 nadpis 
-
-Na této stránce naleznete informace o tom ...
-
-### h3 nadpis 
-
-Na této stránce naleznete informace o tom ...
-
+V dialogovém okně přidání aplikaci si můžete kliknutím na položku vybrat požadovanou aplikaci a kliknout na tlačítko **Pokračovat**.

@@ -22,12 +22,17 @@ const sidebars: SidebarsConfig = {
         {
             type: 'doc',
             id: 'documentation/intro',
-            label: 'Slovo úvodem'
+            label: 'Úvod'
         },
         {
             type: 'doc',
             id: 'documentation/administration',
             label: 'Administrační rozhraní'
+        },
+        {
+            type: 'doc',
+            id: 'documentation/dashboard',
+            label: 'Hlavní strana'
         },
         {
             type: 'category',
@@ -47,6 +52,7 @@ const sidebars: SidebarsConfig = {
                 'documentation/orders/order-overview',
                 'documentation/orders/order-detail',
                 'documentation/orders/order-create-printing',
+                'documentation/orders/order-picking',
             ],
         },
         {
@@ -70,7 +76,7 @@ const sidebars: SidebarsConfig = {
                             type: 'category',
                             label: 'Přidání aplikací',
                             items: [
-                                'documentation/settings/application/application-add/pohoda',
+                                //'documentation/settings/application/application-add/pohoda',
                                 'documentation/settings/application/application-add/upgates',
                              // 'documentation/settings/application/application-add/shoptet.md',
 
@@ -113,12 +119,27 @@ const sidebars: SidebarsConfig = {
                 },
                 {
                     type: 'category',
+                    label: 'Tiskárny',
+                    items: [
+                        'documentation/settings/printers/printer-overview',
+                    ],
+                },
+                {
+                    type: 'category',
                     label: 'Podpora',
                     items: [
                         'documentation/settings/support/basic-info',
                         'documentation/settings/support/discussion',
                     ],
                 }
+            ],
+        },
+        {
+            type: 'category',
+            label: 'Technické informace',
+            items: [
+                //'documentation/tech/intro',
+                'documentation/tech/tracking',
             ],
         },
     ],
@@ -129,14 +150,14 @@ const sidebars: SidebarsConfig = {
             items: [
                 'api/intro',
                 'api/pripojeni-do-api',
-                {
-                    type: 'category',
-                    label: 'Typy klientů',
-                    items: [
-                        'api/clients/net',
-                        'api/clients/php',                    
-                    ],
-                },
+                //{
+                //    type: 'category',
+                //    label: 'Typy klientů',
+                //    items: [
+                //        'api/clients/dotnet',
+                //        'api/clients/php',                    
+                //    ],
+                //},
             ],
         },
     ],
@@ -148,14 +169,18 @@ const sidebars: SidebarsConfig = {
                 'carrier/intro',
                 {
                     type: 'category',
-                    label: 'Typy dopravců',
+                    label: 'Seznam dopravců',
                     items: [
                         {
                             type: 'category',
                             label: 'CZ dopravci',
                             items: [
+                                'carrier/cp',
                                 'carrier/dpd',
+                                'carrier/geis',
+                                'carrier/gls',
                                 'carrier/ppl',
+                                'carrier/wedo',
                             ],
                         },
                         {

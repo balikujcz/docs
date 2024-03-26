@@ -6,6 +6,7 @@ const config: Config = {
     title: 'Balíkuj.cz',
     tagline: 'Rychle. Přehledně. Bezpečně.',
     favicon: 'img/favicon.ico',
+    staticDirectories: ['static'],
 
     // Set the production url of your site here
     url: 'https://docs.balikuj.cz',
@@ -55,6 +56,13 @@ const config: Config = {
     ],
 
     themeConfig: {
+        announcementBar: {
+            id: 'newfeatures',
+            content: 'Máte nápad na novou funkci, něco Vám v balíkuj.cz nefunguje nebo chybí? <a target="_blank" rel="noopener noreferrer" href="https://www.balikuj.cz">Napište nám!</a>',
+            backgroundColor: '#303846',
+            textColor: '#fff',
+            isCloseable: false,
+        },
         // Replace with your project's social card
         image: 'img/docusaurus-social-card.jpg',
         navbar: {
@@ -143,9 +151,10 @@ const config: Config = {
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+            copyright: `Copyright © ${new Date().getFullYear()} balíkuj.cz`,
         },
         prism: {
+            additionalLanguages: ['csharp', 'php', 'json'],
             theme: prismThemes.github,
             darkTheme: prismThemes.dracula,
         },
