@@ -8,7 +8,7 @@ Na této stránce se dozvíte vše o základní manipulaci a nastavení Vašich 
 
 ## Přehled emailových šablon
 
-K přehledu emailových šablon se dostanece v aplikaci **Balíkuj.cz** pomocí navigace: **Nastavení** -> **Emaily** -> **Emailové šablony**. Následně se dobrazí stránka s přehledem všech emailových šablon k vašemu účtu.
+K přehledu emailových šablon se dostanece v aplikaci **Balíkuj.cz** pomocí navigace: **Nastavení** -> **Emaily** -> **Emailové šablony**. Následně se zobrazí stránka s přehledem všech emailových šablon k vašemu účtu.
 
 ![Zobrazení adres](/img/settings/email/email-template-overview.png)
 
@@ -37,3 +37,8 @@ Mazání šablon je možné v detailu šablony. K této akci je potřeba kliknou
 ## Vytvoření šablony
 V přehledu všech emailových šablon klikněte na **Přidat emailovou šablonu**. Bude Vám zobrazen formulář pro vyplnění základních údajů o šabloně a jejím obsahu.
 
+![Zobrazení adres](/img/settings/email/email-template-create.png)
+
+:::tip
+Abyste nemuseli testovat funkčnost vašich emailových šablon v ostrém provozu, je možno využít **testovacího režimu**. Do tohoto pole můžete zadat adresu vašeho emailu a **ověřit správné doručení**. 
+:::

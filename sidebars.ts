@@ -87,17 +87,17 @@ const sidebars: SidebarsConfig = {
                     type: 'category',
                     label: 'Dopravci',
                     items: [
-                        'documentation/settings/carriers/carrier-overview',
-                        {
-                            type: 'category',
-                            label: 'Aktivace dopravce',
-                            items: [
-                                'documentation/settings/carriers/activation/cp',
-                                'documentation/settings/carriers/activation/dpd',
-                                'documentation/settings/carriers/activation/geis',
-                                'documentation/settings/carriers/activation/ppl'
-                            ],
-                        },
+                        'documentation/settings/carriers/carrier-overview'
+                        //{
+                        //    type: 'category',
+                        //    label: 'Aktivace dopravce',
+                        //    items: [
+                        //        'documentation/settings/carriers/activation/cp',
+                        //        'documentation/settings/carriers/activation/dpd',
+                        //        'documentation/settings/carriers/activation/geis',
+                        //        'documentation/settings/carriers/activation/ppl'
+                        //    ],
+                        //},
                     ],
                 },
                 {
@@ -106,6 +106,16 @@ const sidebars: SidebarsConfig = {
                     items: [
                         'documentation/settings/emails/email-template',                     
                         'documentation/settings/emails/email-accounts'                     
+                    ],
+                },
+                {
+                    type: 'category',
+                    label: 'Objednávky',
+                    items: [
+                        'documentation/settings/orders/order-settings',
+                        'documentation/settings/orders/order-picking',
+                        'documentation/settings/orders/order-payment',
+                        'documentation/settings/orders/order-states'
                     ],
                 },
                 {

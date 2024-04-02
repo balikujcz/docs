@@ -6,11 +6,18 @@ sidebar_position: 1
 
 Na této stránce naleznete informace o tom ...
 
-## h2 nadpis 
+## Přehled emailových účtů
 
-Na této stránce naleznete informace o tom ...
+K přehledu emailových účtů se dostanece v aplikaci **Balíkuj.cz** pomocí navigace: **Nastavení** -> **Emaily** -> **Emailové účty**. Následně se zobrazí stránka s přehledem všech emailových účtů k vašemu účtu.
 
-### h3 nadpis 
+![Zobrazení adres](/img/settings/email/email-account-overview.png)
 
-Na této stránce naleznete informace o tom ...
 
+
+### Navigace přehledu
+- Pomocí tlačítka **Synchronizace** bude přehled účtů aktualizován. 
+- Tlačítkem **Přidat emailový účet** Vám bude zobrazena karta pro vytvoření nové šablony.
+
+
+## Detail a editace 
+Kliknutím na **kartu** daného účtu v přehledu emailových účtů bude zobrazen **detail** účtu s možností **editace**.
