@@ -14,7 +14,7 @@ Pro tisknutí zásilek v **Balíkuj.cz** navštivte stranu přehled zásilek. Po
 
 ### Nastavení tiskárny
 
-Text a fotky jak nastavit tiskárnu s sw
+Pro podrobnější informace o nastavení tiskáren naleznete  [**Zde**.](/docs/documentation/settings/printers/printer-overview.md)
 
 ### Tisknutí štítků
 

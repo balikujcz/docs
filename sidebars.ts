@@ -40,8 +40,7 @@ const sidebars: SidebarsConfig = {
             items: [
                 'documentation/packages/package-overview',                
                 'documentation/packages/package-create',                
-                'documentation/packages/package-detail',                
-                'documentation/packages/package-duplicate',                
+                'documentation/packages/package-detail',                               
                 'documentation/packages/package-printing',                
             ],
         },

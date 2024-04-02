@@ -4,13 +4,13 @@ sidebar_position: 1
 
 # Přehled dopravců
 
-Na této stránce naleznete informace o tom ...
+Aplikace **Balíkuj.cz** poskytuje podporu pro zasílání vašich zásilek napříč různými dopravci jako jsou například **Česká pošta**, **DPD**, **Geis**, **GLS**, **PPL** a mnoho dalších. 
+K přehledu těchto dopravců se dostanete pomocí navigace v aplikaci **Nastavení** -> **Dopravci**.
 
-## h2 nadpis 
+![Zobrazení dopravců](/img/settings/carrier/carrier-overview.png)
 
-Na této stránce naleznete informace o tom ...
+## Aktivace dopravce
+Jak aktivovat jednotlivé dopravce se dozvíte z navigace této dokumentace **Nastavení** -> **Dopravci** -> **Aktivace Dopravce**
 
-### h3 nadpis 
 
-Na této stránce naleznete informace o tom ...
 

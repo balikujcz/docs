@@ -26,7 +26,7 @@ V hlavičce stránky naleznete sekci, která slouží k filtrování přehledu v
 	- **Dopravce** - Po rozkliknutí se zobrazí dropdown menu, ve kterém můžete vybrat jednoho, více a nebo všechny dopravce podle kterých chcete filtrovat.
 
 :::warning
-	Pozor, zobrazují se pouze dopravci, které máte nastavené ve vaší aplikaci jako aktivní. Aktivovat nového dopravce si můžete v sekci **Nastavení** -> **Dopravci**.
+	Pozor, zobrazují se pouze dopravci, které máte nastavené ve vaší aplikaci jako aktivní. Aktivovat nového dopravce můžete v sekci **Nastavení** -> **Dopravci**.
 :::
 
 	- **Stav zásilky** - Po rozkliknutí se zobrazí dropdown menu, kde lze vybrat jeden z mnoha filtrů podle stavu zásilky. Mezi nejpoužívanější patří např. **doručeno**, **nedoručeno**, **odesláno (na cestě)** a mnoho dalších.
@@ -86,11 +86,14 @@ V přehledu zásilek má každá zásilka svou kartu s rychlým, obecným a jedn
 	- **Doba od vytvoření** - Zobrazuje uplynulou dobu od vytvoření dané zásilky
 	- **Kontaktní údaje** - Zobrazuje základní kontaktní údaje příjemce
 	- **Grafické vyjádření stavu zásilky** - U každé zásilky se nachází grafické znázornění aktuálního stavu v jejím životním cyklu pomocí modré linky a jak daleko v tomto cyklu už je. Aby toho nebylo málo 
-												jsou pod ní přidány i ikony. Najetím myši na tyto ikony se zobrazí jejich výnam.
-												
+												jsou pod ní přidány i ikony. Najetím myši na tyto ikony se zobrazí jejich výnam.												
 	---
 
 
+### Duplikace zásilky
+Kliknutím na tlačítko **Akce** u jednotlivých zásilek lze otevřít menu a zvolit možnost duplikovat. Následně Vám bude zobrazena stránka pro vytvoření zásilky s předvyplněnými údaji.
+
+---
 
 ### Patička přehledu
 Tato spodní část stránky slouží k listování mezi stranami se zásilkami. Zborazuje se číslo strana v zápětí s počtem zásilek na stránce. Disponuje také tlačítkami pro postupování mezi stránkami.
