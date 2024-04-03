@@ -30,5 +30,5 @@ Pro změnu dopravce u nové zásilky, nikoliv služby, musíte kliknout na tlač
 
 :::tip
 Abychom ušetřili Váš čas, přidali jsme pole pro příjemce zásilky pod názvem **Předvyplnit adresu z databáze**. Pomocí tohoto pole můžete vybrat adresu příjemce, 
-kterému jste v minulosti již zásilky posílali a velká část polí budou vyplněna automaticky.
+kterému jste v minulosti již zásilky posílali a velká část polí bude vyplněna automaticky.
 :::

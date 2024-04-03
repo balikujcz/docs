@@ -7,6 +7,6 @@ Na této stránce se dozvíte základní informace o **nastavení** všeho důle
 
 ![Základní nastavení](/img/settings/order/order-settings.png)
 
-    - **Výchozí typ zobrazení** - udává jak se boudou objednávky zobrazovat v rámci rozložení stránky.
-    - **Počet záznamů na stránku** - udává kolik záznamů se bude zobrazovat na jedné stránce.
-    - **Přehled objednávek s položkami** - pod každou z objednávek se zobrazí i jednotlivé položky dané objednávky
+    - **Výchozí typ zobrazení** - udává, jak se boudou objednávky zobrazovat v rámci rozložení stránky.
+    - **Počet záznamů na stránku** - udává, kolik záznamů se bude zobrazovat na jedné stránce.
+    - **Přehled objednávek s položkami** - pod každou z objednávek se zobrazí i jednotlivé položky dané objednávky.

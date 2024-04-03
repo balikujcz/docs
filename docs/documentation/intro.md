@@ -4,15 +4,15 @@ sidebar_position: 1
 
 # Vítejte v dokumentaci balíkuj.cz
 
-Balíkuj.cz je online softwarová aplikace/platforma, kterou jsme vytvořili nejen pro usnadnění práce v oblasti expedice zásilek a objednávek, ale také v oblasti nástrojů pro e-shopy. 
+Balíkuj.cz je online softwarová aplikace/platforma, kterou jsme vytvořili pro usnadnění práce nejen v oblasti expedice zásilek a objednávek, ale také v oblasti nástrojů pro e-shopy. 
 
 Naše aplikace se skládá z několik částí, které lze využívat i samostatně:
 
-- **API rozhraní** - aplikace balíkuj.cz je kompletně založena na vlastním programovém API rozhraní, díky kterému můžete všechny úkony, které vidíte v našem webovém rozhraní [`https://app.balikuj.cz`](https://app.balikuj.cz) automatizovat ze svých skriptů nebo aplikací.
+- **API rozhraní** - aplikace balíkuj.cz je kompletně založena na vlastním programovém API rozhraní, díky kterému můžete všechny úkony, které vidíte v našem webovém rozhraní [`https://app.balikuj.cz`](https://app.balikuj.cz), automatizovat ze svých skriptů nebo aplikací.
 
 
 - **Zásilky** - tato část aplikace umožňuje práci se zásilkami daného dopravce. V současné době podporujeme řadu dopravců a další postupně přidáváme.
-Pro možnost zasílání zásilek z našeho webového rozhraní, API rozhraní nebo eshop integrace je třeba mít uzavřenu smlouvu s daným dopravcem, který Vám poskytne přihlašovací údaje do API rozhraní, které použijete při aktivaci dopravce v balíkuj.cz.
+Pro možnost zasílání zásilek z našeho webového rozhraní, API rozhraní nebo eshop integrace je třeba mít uzavřenu smlouvu s daným dopravcem. Ten Vám také poskytne přihlašovací údaje do API rozhraní, které použijete při aktivaci dopravce v balíkuj.cz.
   - Tato část umožňuje například:
   - Vytvářet zásilky (štítků) pro daného dopravce
   - Tisk štítků v PDF/ZPL ve velikostech A6/A4 apod.

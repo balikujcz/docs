@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Upgates
 
-Upgates je poskytovatel eshopových řešení nejen v České republice, ale i v zahraničí. Díky aktivace aplikace **Upgates** získáte možnost
+Upgates je poskytovatel eshopových řešení nejen v České republice, ale i v zahraničí. Díky aktivaci aplikace **Upgates** získáte možnost
 
 ## Základní informace
 | Informace |  |
@@ -26,12 +26,12 @@ oficiální dokumentaci na [https://upgatesapiv2.docs.apiary.io ↗️](https://
 
 ### Vytvoření přístupových údajů 
 
-Pro úspěšné napojení na Upgates potřebujete vytvořit si nový Token. Postup vytvoření nového tokenu, pokud již nemáte existující je následující:
+Pro úspěšné napojení na Upgates potřebujete vytvořit si nový Token. Postup vytvoření nového tokenu, pokud již nemáte existující, je následující:
 
 ![Upgates](./upgates2.png)
 
 1. Nový token si vytvoříte v sekci **API** kliknutím na tlačítko **+ Nové**. 
-2. Do pole **Název** zadejte textový popis, který vám pomůže identifikovat token.
+2. Do pole **Název** zadejte textový popis, který Vám pomůže identifikovat token.
 3. Vyberte oprávnění, které tento token bude nabízet. Pro správnout funkčnost systému potřebujeme vybrat minimálně:
 	* **Objednávky** -> **Čtení a  zápis**
 	* **Produkty** -> **Čtení a  zápis**
@@ -41,7 +41,7 @@ Pro úspěšné napojení na Upgates potřebujete vytvořit si nový Token. Post
 	* **Webhooky** -> **Pouze čtení**
 	* **Ceníky** -> **Pouze čtení**
 	* **Majitel** -> **Pouze čtení**
-4. Pokud nechcete nastavit jednotlivá oprávnění, můžete nastavit všechna oprávnění. Napojení na **Upgates** neustále rozšiřujeme a může se stát,
+4. Pokud nechcete nastavovat jednotlivá oprávnění, můžete nastavit všechna oprávnění. Napojení na **Upgates** neustále rozšiřujeme a může se stát,
 že v budoucnu budete potřebovat další oprávnění.
 
 
@@ -52,8 +52,8 @@ V seznamu **Propojení** se nově vytvořený token zobrazí. V seznamu naleznet
 
 
 ## Nastavení aplikace
-Pro nastavení/aktivaci aplikace je třeba zadat **Doména nebo označení eshopu**. Tato hodnotav tuto chvíli slouží jako identifikátor, ke které aplikaci patří objednávka. 
-Jako další hodnotu můžete zvolit **Poznámka**, která se zobrazí v přehledu aplikací.
+Pro nastavení/aktivaci aplikace je třeba zadat **Doména nebo označení eshopu**. Tato hodnota v tuto chvíli slouží jako identifikátor, ke které aplikaci patří objednávka. 
+Jako další můžete vyplnit **Poznámku**, která se zobrazí v přehledu aplikací.
 
 ### Přihlašovací údaje
 V této sekci je třeba nastvit přihlašovací údaje do API Upgates, které jste si nastavili/vygenerovali v předchozím kroku. Zadávat budete:
@@ -76,8 +76,8 @@ Nové mapování přidáte kliknutím na tlačítko **Přidat dopravu**.
 
 V dialogovém okně, které se Vám zobrazí zadejte:
 * **Označení mapování** - Vaše označení mapování - nikde se nepropisuje, pouze informativní charakter
-* **Mapovaná doprava z eshopu** - Zde vyberte dopravní službu, která se načte ze seznamu dopravců Vašeho eshopu. Vybrat můžete i několik různých dopravců a sdružit je pod jednoho dopravce v systému Balíku
-* **Vyberte dopravce** - Vyberte dopravce, kterého máte v Balíkuj aktivovaného a na kterého chcete mapovat zvolenou dopravu
-* **Vyberte službu** - Vyberte službu daného dopravce, která bude použita pro vytvoření zásilek
+* **Mapovaná doprava z eshopu** - zde vyberte dopravní službu, která se načte ze seznamu dopravců Vašeho eshopu. Vybrat můžete i několik různých dopravců a sdružit je pod jednoho dopravce v systému Balíkuj.
+* **Vyberte dopravce** - vyberte dopravce, kterého máte v Balíkuj aktivovaného a na kterého chcete mapovat zvolenou dopravu
+* **Vyberte službu** - vyberte službu daného dopravce, která bude použita pro vytvoření zásilek
 
 Vše potvrdíte kliknutím na tlačítko **Přidat dopravu**.
