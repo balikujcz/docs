@@ -62,8 +62,7 @@ const sidebars: SidebarsConfig = {
                     type: 'category',
                     label: 'Adresy',
                     items: [
-                        'documentation/settings/addresses/address-overview',
-                        'documentation/settings/addresses/address-create'
+                        'documentation/settings/addresses/address-overview'
                     ],
                 },
                 {
@@ -131,6 +130,13 @@ const sidebars: SidebarsConfig = {
                     label: 'Tiskárny',
                     items: [
                         'documentation/settings/printers/printer-overview',
+                    ],
+                },
+                {
+                    type: 'category',
+                    label: 'Zásilky',
+                    items: [
+                        'documentation/settings/packages/default-settings',
                     ],
                 },
                 {
