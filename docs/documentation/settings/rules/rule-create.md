@@ -48,11 +48,27 @@ Akce určuje **co** se má stát při spuštění pravidla. V sekci **Akce** kli
 **Typy akcí:**
 
 - **Změnit stav objednávky** - Změní stav objednávky na zvolený stav.
-
         - automaticky bude zobrazeno pole pro zadání nového stavu objednávky
-
 
 :::tip   
 V poli **Nový stav objednávky** uvidíte všechny své vytvořené nakonfigurované stavy objednávek, jenž jste vytvořili.
 Jak vytvořit nový stav se dozvíte v [dokumentaci](/docs/documentation/settings/orders/order-states).
 :::	
+
+- **Odeslat email** - odešle email na zvolenou adresu.
+        - automaticky bude zobrazeno pole pro zadání emailové adresy, předmětu a obsahu emailu.
+
+- **Odeslat emailovou šablonu** - Odešle vytvořenou emailovou šablonu ze systému na zvolenou adresu.
+        - automaticky bude zobrazeno pole pro výběr emailové šablony a příjemce
+
+- **Vytisknout** - Vytiskne zvolený výstup na vybrané tiskárně.
+        - automaticky bude zobrazeno pole pro typ dokumentu k vytisknutí a výběr tiskárny
+
+- **HTTP Post** - Odešle HTTP POST request na zvolenou adresu.
+        - automaticky bude zobrazeno pole pro zadání URL adresy
+
+
+
+:::tip
+Nezapomeňte, že můžete přidávat **více podmínek a akcí** do jednoho pravidla! :grinning:
+:::

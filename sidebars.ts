@@ -136,7 +136,7 @@ const sidebars: SidebarsConfig = {
                     type: 'category',
                     label: 'Zásilky',
                     items: [
-                        'documentation/settings/packages/default-settings',
+                        'documentation/settings/packages/package-settings',
                     ],
                 },
                 {
