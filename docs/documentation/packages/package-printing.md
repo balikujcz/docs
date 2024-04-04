@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Tisk štítků
 
-Díky Balíkuj.cz můžete snadno a rychle spravovat své zásilky a zajistit rychlý a bezproblémový proces doručení. S funkcí tisku štítků přímo z aplikace získáváte ještě větší kontrolu nad vašimi zásilkami
+Díky Balíkuj.cz můžete snadno a rychle spravovat své zásilky a zajistit rychlý a bezproblémový proces doručení. S funkcí tisku štítků přímo z aplikace získáváte ještě větší kontrolu nad Vašimi zásilkami
 a minimalizujete riziko chyb při ručním psaní adres. Tato dokumentace Vám poskytne podrobný návod k použití funkce tisku štítků v Balíkuj.cz, abyste mohli co nejlépe využít všech výhod, které naše platforma nabízí. 
 Přejeme Vám úspěšné tisknutí!
 

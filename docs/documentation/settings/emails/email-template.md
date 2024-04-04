@@ -8,12 +8,12 @@ Na této stránce se dozvíte vše o základní manipulaci a nastavení Vašich 
 
 ## Přehled emailových šablon
 
-K přehledu emailových šablon se dostanece v aplikaci **Balíkuj.cz** pomocí navigace: **Nastavení** -> **Emaily** -> **Emailové šablony**. Následně se zobrazí stránka s přehledem všech emailových šablon k vašemu účtu.
+K přehledu emailových šablon se dostanece v aplikaci **Balíkuj.cz** pomocí navigace: **Nastavení** -> **Emaily** -> **Emailové šablony**. Následně se zobrazí stránka s přehledem všech emailových šablon k Vašemu účtu.
 
 ![Zobrazení adres](/img/settings/email/email-template-overview.png)
 
 :::note
-Aby bylo možné využívat emailovou šablonu, ujistěte se, že se jeví v aplikaci jako **aktivní** (viz obrázek).
+Aby bylo možné využívat emailovou šablonu, ujistěte se, že se zobrazuje v aplikaci jako **aktivní** (viz obrázek).
 :::
 
 
@@ -28,7 +28,7 @@ Kliknutím na **kartu** dané šablony v přehledu emailových šablon bude zobr
 ![Zobrazení adres](/img/settings/email/email-template-detail.png)
 
 Do pole **Text šablony** vložte text, jenž bude zaslán při určité události. Obsahem tohoto pole může být obyčejný text nebo stylovaná stránka pomocí HTML. Pomocí tlačítka **Je aktivní** můžete jednoduše **aktivovat/deaktivovat** šablonu.
-K odeslanému emailu můžete **přidat vybraný soubor jako přílohu** (max. velikost **2 MB**).Lze přidat pouze u již vytvořené šablony. 
+K odeslanému emailu můžete **přidat vybraný soubor jako přílohu** (max. velikost **2 MB**). Lze přidat pouze u již vytvořené šablony. 
 Uložení všech  změn nastane po kliknutí na tlačítko **Uložit změny**.
 
 ## Smazání šablony
@@ -40,5 +40,5 @@ V přehledu všech emailových šablon klikněte na **Přidat emailovou šablonu
 ![Zobrazení adres](/img/settings/email/email-template-create.png)
 
 :::tip
-Abyste nemuseli testovat funkčnost vašich emailových šablon v ostrém provozu, je možno využít **testovacího režimu**. Do tohoto pole můžete zadat adresu vašeho emailu a **ověřit správné doručení**. 
+Abyste nemuseli testovat funkčnost Vašich emailových šablon v ostrém provozu, je možno využít **testovacího režimu**. Do tohoto pole můžete zadat adresu Vašeho emailu a **ověřit správné doručení**. 
 :::

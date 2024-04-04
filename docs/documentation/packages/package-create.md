@@ -15,7 +15,7 @@ Abyste mohli vytvořit novou zásilku, je potřeba přejít do přehledu zásile
 Po kliknutí na tlačítko **Přidat zásilku** se zobrazí okno s poli pro výběr dopravce a dané služby pro dopravce, které podporuje.
 
 :::warning
-	Pozor, zobrazují se pouze dopravci, které máte nastavené ve vaší aplikaci jako aktivní. Aktivovat nového dopravce si můžete v sekci **Nastavení** -> **Dopravci**.
+	Pozor, zobrazují se pouze dopravci, které máte nastavené ve Vaší aplikaci jako aktivní. Aktivovat nového dopravce si můžete v sekci **Nastavení** -> **Dopravci**.
 :::
 
 ![Navigace v přehledu zásilek](/img/package/overview/package-create.png)

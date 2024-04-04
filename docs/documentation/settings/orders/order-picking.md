@@ -11,7 +11,7 @@ Slouží k základnímu **nastavení pickingu** a **balení** objednávek.
 - **Po naskenování všech položek vykonat** - po naskenování všech položek se provede vybraná akce.
 - **Akce po dokončení pickingu** - po dokončení pickingu se provede vybraná akce.
 - **Po dokončení pickingu přepnout stav** - po dokončení pickingu se změní stav objednávky na vybraný stav.
-- **Zobrazovat poznámky v pickingu** - zobrazí se poznámky k pickingu pokud bude zákaznická nebo interní poznámka vyplněna
+- **Zobrazovat poznámky v pickingu** - zobrazí se poznámky k pickingu, pokud bude zákaznická nebo interní poznámka vyplněna.
 - **Výchozí tiskárna štítků pro picking** - tiskárna, na které se budou tisknout štítky pro picking po dokončení objednávky.
 
 

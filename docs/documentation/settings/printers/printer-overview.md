@@ -6,7 +6,7 @@ sidebar_position: 1
 Balíkuj podporuje přímé napojení na tiskárny na zvoleném počítači s operačním systémem Windows v reálném čase. To znamená, že v systému Balíkůj uvidíte všechny tiskárny na Vašem PC, které se rozhodnete používat nejen pro tisk štítků.
 
 :::tip
-Díky využití našeho software tiskáren můžete tisknou zvolené dokumenty rovnou na tiskárně a to kdekoliv. Například ve sklad, doma, v kanceláři apod. Odpadá Vám starost se stahováním PDF dokumentů a jejich následným tiskem pomocí dialogového okna.
+Díky využití našeho software tiskáren můžete tisknout zvolené dokumenty rovnou na tiskárně, a to kdekoliv. Například ve skladu, doma, v kanceláři apod. Odpadá Vám starost se stahováním PDF dokumentů a jejich následným tiskem pomocí dialogového okna.
 :::
 
 ## Přehled tokenů
@@ -15,7 +15,7 @@ Token je speciální klíč, který se používá pro autentizaci tiskového sof
 V přehledu tokenů vidíte jeho název, datum vytvoření a datum posledního úspěšného připojení.
 
 :::warning
-Tento token nikde nešiřte a pokud budete chtít můžete si vygenerovat nový například pro další pobočku nebo expediční místo. Pokud token smažete, přetanou všechny tiskárny pod tímto tokenem fungovat.
+Tento token nikde nešiřte a pokud budete chtít, můžete si vygenerovat nový například pro další pobočku nebo expediční místo. Pokud token smažete, přestanou všechny tiskárny pod tímto tokenem fungovat.
 :::
 
 ## Přehled tiskáren

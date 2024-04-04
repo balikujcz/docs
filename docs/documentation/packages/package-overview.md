@@ -3,8 +3,8 @@ sidebar_position: 1
 ---
 
 # Přehled zásilek
-Tento přehled je navržen s cílem usnadnit správu vašich zásilek a poskytnout Vám úplný přehled o jejich stavu a historii.
-S Balíkuj můžete snadno sledovat všechny vaše zásilky na jednom místě, a to včetně možnosti filtrovat je podle různých kritérií,
+Tento přehled je navržen s cílem usnadnit správu Vašich zásilek a poskytnout Vám úplný přehled o jejich stavu a historii.
+S Balíkuj můžete snadno sledovat všechny Vaše zásilky na jednom místě, a to včetně možnosti filtrovat je podle různých kritérií,
 jako jsou datum odeslání, stav doručení, platba dobírkou a další. Tato dokumentace Vám poskytne podrobné informace o funkcích, které přehled zásilek aplikace Balíkuj nabízí, a jak je efektivně využívat.
 ## Obecný přehled zásilek
 
@@ -19,14 +19,14 @@ V sekci přehledu zásilek se na hlavičce stránky nad filtrovacím rozhraním 
 
 
 ### Filtrování zásilek
-V hlavičce stránky naleznete sekci, která slouží k filtrování přehledu vašich zásilek. Toto rozhraní umožňuje filtrovat podle rozmanitého spektra kritérií:
+V hlavičce stránky naleznete sekci, která slouží k filtrování přehledu Vašich zásilek. Toto rozhraní umožňuje filtrovat podle rozmanitého spektra kritérií:
 
 ![Možnosti filtrování zásilek](/img/package/overview/filters.png)
 	- **Hledaný text** - Pole pro zadání textu, který se může vyskytovat v názvu zásilky, jejím popisu, čísle zásilky nebo také referenčním čísle.
 	- **Dopravce** - Po rozkliknutí se zobrazí dropdown menu, ve kterém můžete vybrat jednoho, více a nebo všechny dopravce, podle kterých chcete filtrovat.
 
 :::warning
-	Pozor, zobrazují se pouze dopravci, které máte nastavené ve vaší aplikaci jako aktivní. Aktivovat nového dopravce můžete v sekci **Nastavení** -> **Dopravci**.
+	Pozor, zobrazují se pouze dopravci, které máte nastavené ve Vaší aplikaci jako aktivní. Aktivovat nového dopravce můžete v sekci **Nastavení** -> **Dopravci**.
 :::
 
 	- **Stav zásilky** - Po rozkliknutí se zobrazí dropdown menu, kde lze vybrat jeden z mnoha filtrů podle stavu zásilky. Mezi nejpoužívanější patří např. **doručeno**, **nedoručeno**, **odesláno (na cestě)**.
@@ -81,7 +81,7 @@ V přehledu zásilek má každá zásilka svou kartu s rychlým, obecným a jedn
 	Kliknutím na číslo zásilky se rychle a efektivně přesměrujete do **detailu** zásilky. :relieved:
 :::
 	
-	- **Vlastní označení zásilky** - Vlastní označení je zobrazeno hned pod oficiálním číslem zásilky, toto číslo je zobrazeno **šedou barvou** a mělo by pomáhat vaší orientaci mezi zásilkami.
+	- **Vlastní označení zásilky** - Vlastní označení je zobrazeno hned pod oficiálním číslem zásilky, toto číslo je zobrazeno **šedou barvou** a mělo by pomáhat Vaší orientaci mezi zásilkami.
 	- **Tracking dopravce** - Ikona **auta** hned vedle čísla zásilky. Po kliknutí budete přesměrováni na **stránku dopravce**, kde si můžete zobrazit ještě **podrobnější data** o dopravě.
 	- **Doba od vytvoření** - Zobrazuje uplynulou dobu od vytvoření dané zásilky.
 	- **Kontaktní údaje** - Zobrazuje základní kontaktní údaje příjemce.
@@ -105,7 +105,7 @@ Tato spodní část stránky slouží k listování mezi stranami se zásilkami.
 
 :::note
 
-S těmito funkcemi můžete lépe organizovat a spravovat vaše zásilky, což Vám ušetří čas a sníží námahu spojenou s jejich sledováním. Další informace o použití jednotlivých funkcí najdete v následujících sekcích dokumentace.
+S těmito funkcemi můžete lépe organizovat a spravovat Vaše zásilky, což Vám ušetří čas a sníží námahu spojenou s jejich sledováním. Další informace o použití jednotlivých funkcí najdete v následujících sekcích dokumentace.
 
 :::
 
