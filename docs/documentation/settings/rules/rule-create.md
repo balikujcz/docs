@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Přidání pravidla
 
-Na této stránce naleznete informace o tom jak** vytvářet pravidla**, **možnosti nastavení**, jaké **akce** a **podmínky** lze vytvářet a další.
+Na této stránce naleznete informace o tom, jak **vytvářet pravidla**, **možnosti nastavení**, jaké **akce** a **podmínky** lze vytvářet a další.
 
 ## Vytvoření pravidla
 
@@ -17,18 +17,18 @@ V navigaci přehledu pravidel klikněte na tlačítko **Vytvořit pravidlo**. N�
 
 Mezi základní nastavení pravidla patří: 
 
-- **Název pravidla** - Název pravidla, který bude zobrazen v seznamu pravidel.
-- **Typ pravidla** - Určuje zda se jedná o pravidlo pro **zásilku** nebo **objednávku**.
+- **Název pravidla** - tento název bude zobrazen v seznamu pravidel.
+- **Typ pravidla** - určuje, zda se jedná o pravidlo pro **zásilku** nebo **objednávku**.
 - **Popis pravidla** - Váš vlastní popis k pravidlu, například k čemu je určeno a jaké má funkce.
-- **Je aktivní** - Určuje zda bude pravidlo od vytvoření ihned aktivní.
-- **Datum platnosti od / do** - Určuje v jakém časovém období bude pravidlo spuštěno.
-- **Jednorázové spuštění pravidla** - Vyberte, pokud chcete spustit pravidlo pouze jednou.
-- **Odeslat systémový email na eshopu** - Odešle emaily při změně stavu objednávky pro zvolenou eshopovou platformu.
-- **Spouštět pouze ve dny** - Pravidlo bude spouštěno pouze ve vybrané dny (**Pondělí - Neděle**)
-- **Spouštět pouze v čas** - Na výběr jsou čtyři šestihodinové časové intervaly, ve kterých chcete pravidlo spustit. 
+- **Je aktivní** - určuje, zda bude pravidlo od vytvoření ihned aktivní.
+- **Datum platnosti od / do** - určuje, v jakém časovém období bude pravidlo spuštěno.
+- **Jednorázové spuštění pravidla** - vyberte, pokud chcete spustit pravidlo pouze jednou.
+- **Odeslat systémový email na eshopu** - odešle emaily při změně stavu objednávky pro zvolenou eshopovou platformu.
+- **Spouštět pouze ve dny** - pravidlo bude spouštěno pouze ve vybrané dny (**Pondělí - Neděle**).
+- **Spouštět pouze v čas** - na výběr jsou čtyři šestihodinové časové intervaly, ve kterých chcete pravidlo spustit. 
 
 ### Podmínky
-Princip pravidel stojí na **podmínkách** a **akcích**. Podmínky určují **kdy** se má pravidlo spustit a akce **co** se má stát.
+Princip pravidel stojí na **podmínkách** a **akcích**. Podmínky určují, **kdy** se má pravidlo spustit a akce **co** se má stát.
 V sekci **Podmínky** klikněte na zelené tlačítko **Přidat podmínku** a vyberte z nabídky podmínek, které chcete nastavit.
 
 ***Nastavení podmínek za kterých bude pravidlo spuštěno:***
@@ -40,15 +40,15 @@ V sekci **Podmínky** klikněte na zelené tlačítko **Přidat podmínku** a vy
 
 	**3.** V poli **Hodnota** zadejte hodnotu, kterou chcete porovnávat.
 
-	Tímto způsobem se pravidlo spustí **pouze pokud číslo objednávky bude rovno zadané hodnotě**.
+	Tímto způsobem se pravidlo spustí, **pouze pokud číslo objednávky bude rovno zadané hodnotě**.
 
 ### Akce
-Akce určuje **co** se má stát při spuštění pravidla. V sekci **Akce** klikněte na zelené tlačítko **Přidat akci** a vyberte z nabídky akcí, které chcete nastavit.
+Akce určuje, **co** se má stát při spuštění pravidla. V sekci **Akce** klikněte na zelené tlačítko **Přidat akci** a vyberte z nabídky akcí, které chcete nastavit.
 
 **Typy akcí:**
 
-- **Změnit stav objednávky** - Změní stav objednávky na zvolený stav.
-        - automaticky bude zobrazeno pole pro zadání nového stavu objednávky
+- **Změnit stav objednávky** - změní stav objednávky na zvolený stav.
+        - automaticky bude zobrazeno pole pro zadání nového stavu objednávky.
 
 :::tip   
 V poli **Nový stav objednávky** uvidíte všechny své vytvořené nakonfigurované stavy objednávek, jenž jste vytvořili.
@@ -58,14 +58,14 @@ Jak vytvořit nový stav se dozvíte v [dokumentaci](/docs/documentation/setting
 - **Odeslat email** - odešle email na zvolenou adresu.
         - automaticky bude zobrazeno pole pro zadání emailové adresy, předmětu a obsahu emailu.
 
-- **Odeslat emailovou šablonu** - Odešle vytvořenou emailovou šablonu ze systému na zvolenou adresu.
-        - automaticky bude zobrazeno pole pro výběr emailové šablony a příjemce
+- **Odeslat emailovou šablonu** - odešle vytvořenou emailovou šablonu ze systému na zvolenou adresu.
+        - automaticky bude zobrazeno pole pro výběr emailové šablony a příjemce.
 
-- **Vytisknout** - Vytiskne zvolený výstup na vybrané tiskárně.
-        - automaticky bude zobrazeno pole pro typ dokumentu k vytisknutí a výběr tiskárny
+- **Vytisknout** - vytiskne zvolený výstup na vybrané tiskárně.
+        - automaticky bude zobrazeno pole pro typ dokumentu k vytisknutí a výběr tiskárny.
 
-- **HTTP Post** - Odešle HTTP POST request na zvolenou adresu.
-        - automaticky bude zobrazeno pole pro zadání URL adresy
+- **HTTP Post** - odešle HTTP POST request na zvolenou adresu.
+        - automaticky bude zobrazeno pole pro zadání URL adresy.
 
 
 

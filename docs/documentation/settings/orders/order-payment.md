@@ -9,8 +9,8 @@ Slouží k **nastavení** a **přidání** platebních metod v aplikaci **Balík
 
 Kliknutím na tlačítko **Akce** se zobrazí menu s možnostmi **Detail** a **Smazat**.
 
-	- **Detail** - Zobrazí detail platební metody.
-	- **Smazat** - Kliknutím se zobrazí pole s upozorněním, že chcete smazat danou platební metodu, potvrzením se platební metoda smaže.
+	- **Detail** - zobrazí detail platební metody.
+	- **Smazat** - kliknutím se zobrazí pole s upozorněním, že chcete smazat danou platební metodu. Potvrzením se platební metoda smaže.
 
 ## Přidání platební metody
 

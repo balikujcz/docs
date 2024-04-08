@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Diskuzní fórum
 
-Na této stránce naleznete informace o tom, jak se zorientovat v diskuzním fóru ohledně **přidávání příspěvků**, **odpovídání na příspěvky** a další funkce jako je například **hodnocení příspěvku**.
+Na této stránce naleznete informace o tom, jak se zorientovat v diskuzním fóru ohledně **přidávání příspěvků**, **odpovídání na příspěvky** a další funkce, jako je například **hodnocení příspěvku**.
 
 ## Navigace 
 
@@ -13,7 +13,7 @@ Například pokud hledáte odpověď na nějaký **technický problém**, stač�
 
 ![Navigace](/img/settings/support/support-nav.png)
 
-Navigace disponuje dalšími prvky jako jsou: 
+Navigace disponuje dalšími prvky, jako jsou: 
 
     - **Všechny dotazy** - zobrazí všechny příspěvky od uživatelů.
     - **Vyhledávání** - vyhledávání příspěvků podle klíčových slov.
@@ -21,7 +21,7 @@ Navigace disponuje dalšími prvky jako jsou:
 
 
 ### Hlavní kategorie
-Kategorie slouží k **uspořádání** příspěvků od uživatelů do **jednotlivých skupin** a zjména k **usnadnění vyhledání** odpovědi na **konkrétní problém**.
+Kategorie slouží k **uspořádání** příspěvků od uživatelů do **jednotlivých skupin** a zejména k **usnadnění vyhledání** odpovědi na **konkrétní problém**.
 
     - **Technická podpora** - kategorie pro technické problémy a dotazy.
     - **Dopravci** - kategorie pro problémy s dopravci, přidávání nových dopravců a další.

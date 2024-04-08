@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Vytvoření zásilky
 
-Tato stránka slouží k poskytnutí přehledu jak vytvořit rychle a efektivně novou zásilku.
+Tato stránka slouží k poskytnutí přehledu, jak vytvořit rychle a efektivně novou zásilku.
 
 ## Přidání zásilky
 

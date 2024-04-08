@@ -57,10 +57,10 @@ Jako další můžete vyplnit **Poznámku**, která se zobrazí v přehledu apli
 
 ### Přihlašovací údaje
 V této sekci je třeba nastvit přihlašovací údaje do API Upgates, které jste si nastavili/vygenerovali v předchozím kroku. Zadávat budete:
-1. **API Login** - Jedná se o textovou hodnotu, kterou vygenerovala administrace Upgates
-2. **API Klíč** - Jedná se o textovou hodnotu, kterou vygenerovala administrace Upgates
-3. **Název eshopu** - Název/označení eshopu. Je to textová hodnota v URL ve tvaru `https://<nazeveshopu>.admin.<znackaserveru>.upgates.com`
-4. **Značka serveru** - Textová hodnota názvu serveru, na kterém je Váš eshop hostován. Může se jednat o hodnoty např. `t1`, `s50` apod.
+1. **API Login** - jedná se o textovou hodnotu, kterou vygenerovala administrace Upgates
+2. **API Klíč** - jedná se o textovou hodnotu, kterou vygenerovala administrace Upgates
+3. **Název eshopu** - název/označení eshopu. Je to textová hodnota v URL ve tvaru `https://<nazeveshopu>.admin.<znackaserveru>.upgates.com`
+4. **Značka serveru** - textová hodnota názvu serveru, na kterém je Váš eshop hostován. Může se jednat o hodnoty např. `t1`, `s50` apod.
 
 ### Kontaktní údaje
 Pokud jste vytvořenému tokenu přiřadili práva na čtení vlastníka eshopu, zobrazí se zde informace o vlastníkovi eshopu. Tyto informace se propisuji 
