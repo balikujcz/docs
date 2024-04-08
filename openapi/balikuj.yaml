@@ -4309,7 +4309,7 @@ components:
           nullable: true
         carry:
           type: boolean
-          description: 'Požadavek na službu "donos". Zasílatel zajistí Vydání Zásilky Příjemci v konkrétním oddělení, kanceláři, či za dveře bytu.'
+          description: 'Požadavek na službu "donos". Zasílatel zajistí Vydání Zásilky Příjemci v konkrétním oddělení, kanceláři či za dveře bytu.'
           nullable: true
         loss:
           type: boolean
@@ -5157,7 +5157,7 @@ components:
           nullable: true
         carry:
           type: boolean
-          description: 'Požadavek na službu "donos". Zasílatel zajistí Vydání Zásilky Příjemci v konkrétním oddělení, kanceláři, či za dveře bytu.'
+          description: 'Požadavek na službu "donos". Zasílatel zajistí Vydání Zásilky Příjemci v konkrétním oddělení, kanceláři či za dveře bytu.'
           nullable: true
         loss:
           type: boolean

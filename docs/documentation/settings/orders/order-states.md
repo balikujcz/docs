@@ -24,5 +24,5 @@ Pro přidání nového stavu klikněte na tlačítko **Přidat stav** v přehled
 Kliknutím na tlačítko **Přidat stav** se nový stav uloží a zobrazí se v přehledu všech stavů.
 
 :::tip
-Tyto stavy mohou být **namapovány** na stavy z Vašeho **e-shopu**.
+Tyto stavy mohou být **namapovány** na stavy z Vašeho **eshopu**.
 :::

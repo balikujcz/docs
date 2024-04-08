@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Vítejte v dokumentaci balíkuj.cz
 
-Balíkuj.cz je online softwarová aplikace/platforma, kterou jsme vytvořili pro usnadnění práce nejen v oblasti expedice zásilek a objednávek, ale také v oblasti nástrojů pro e-shopy. 
+Balíkuj.cz je online softwarová aplikace/platforma, kterou jsme vytvořili pro usnadnění práce nejen v oblasti expedice zásilek a objednávek, ale také v oblasti nástrojů pro eshopy. 
 
 Naše aplikace se skládá z několik částí, které lze využívat i samostatně:
 

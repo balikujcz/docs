@@ -70,7 +70,7 @@ Pozor, aby tlačítko **Akce** -> **Odeslat data k dopravcům** fungovalo, musí
 ---
 
 ### Zobrazení jednotlivých zásilek
-V přehledu zásilek má každá zásilka svou kartu s rychlým, obecným a jednoduchým přehledem. Jak zobrazit další důležité informace a podrobnosti se dočtete níže.
+V přehledu zásilek má každá zásilka svou kartu s obecným a jednoduchým přehledem. Jak zobrazit další důležité informace a podrobnosti se dočtete níže.
 
 ![Zobrazení zásilky](/img/package/overview/package-single.png)
 
