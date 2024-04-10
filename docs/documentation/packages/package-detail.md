@@ -21,13 +21,13 @@ V zobrazení této karty dokážete zjistit základní údaje o **příjemci zá
 ### Doplňkové služby a informace
 Rozhraní Balíkuj.cz disponuje i správou doplňkových služeb, jako jsou například: 
 
-- **Připojištění** - varianta zásilky s pojištěním
-- **Dobírka** - možnost pro zaslání zásilky na dobírku
-- **Výměnná zásilka** - při doručení zásilky příjemci zasílatel zajistí vyzvednutí druhé zásilky od příjemce
-- **Emailová notifikace** - emailová notifikace o doručení zásilky
-- **Služba SmsPreAdvice** - SMS avizace o doručení zásilky v předpokládaném 3-hodinovém časovém intervalu
-- **SMS notifikace** - upozorní příjemce zásilky pomocí SMS
-- **Služba SMSService** - SMS avizace o doručení zásilky následující pracovní den
+- **Připojištění** - varianta zásilky s pojištěním.
+- **Dobírka** - možnost pro zaslání zásilky na dobírku.
+- **Výměnná zásilka** - při doručení zásilky příjemci zasílatel zajistí vyzvednutí druhé zásilky od příjemce.
+- **Emailová notifikace** - emailová notifikace o doručení zásilky.
+- **Služba SmsPreAdvice** - SMS avizace o doručení zásilky v předpokládaném 3-hodinovém časovém intervalu.
+- **SMS notifikace** - upozorní příjemce zásilky pomocí SMS.
+- **Služba SMSService** - SMS avizace o doručení zásilky následující pracovní den.
 
 
 
