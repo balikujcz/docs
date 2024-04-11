@@ -41,6 +41,7 @@ V hlavičce stránky naleznete sekci, která slouží k filtrování přehledu V
 	 
 	 - **Seřadit podle** - možnost výběru, zda chcete řadit od **nejnovějších** či **nejstarších** zásilek.
 	 - **Pouze hlavní zásilky** - tlačítko se třemi stavy, udává volbu pro zobrazení pouze hlavního kusu zásilky - nezobrazuje další balíky v zásilce.
+	 - **Filtrování podle stavu** - zde je možné filtrovat zásilky podle základních stavů, např. **Neodesláno**, **Doručeno**, **Nedoručeno**.
 
 ---
 

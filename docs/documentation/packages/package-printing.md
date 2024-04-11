@@ -10,7 +10,7 @@ Přejeme Vám úspěšné tisknutí!
 
 ## Jak se dostat k tisknutí?
 
-Pro tisknutí zásilek v **Balíkuj.cz** navštivte stranu přehled zásilek. Pokud si nevíte rady nezoufejte, zde je návod k nalezení tlačítka [**Tisk**.](/docs/documentation/packages/package-overview#akce-se-zásilkami)
+Pro tisknutí zásilek v **Balíkuj.cz** navštivte sekci **Zásilky** -> **Přehled zásilek**. Pokud si nevíte rady nezoufejte, zde je návod k nalezení tlačítka [**Tisk**.](/docs/documentation/packages/package-overview#akce-se-zásilkami)
 
 ### Nastavení tiskárny
 
@@ -25,8 +25,9 @@ Podrobnější informace o nastavení tiskáren naleznete  [**Zde**.](/docs/docu
 			- ve formátu **PDF**
 
 		- **Pokročilý tisk štítků** - po kliknutí na toto pole se zobrazí nové okno. Níže naleznete pole pro **výběr formátu tisku (PDF/ZPL)**. Vytisknuté štítky jsou ve výchozím nastavení ve formátu **PDF**.
-									  Pokud máte naimportovány tiskárny **pomocí našeho software**, můžete štítky rovnou vytisknout na tiskárně. Lze si také zvolit, zda chcete tisknout **jeden štítek na jednu 
+									  Lze si také zvolit, zda chcete tisknout **jeden štítek na jednu 
 									  stránku** či **více štítků na jednu stránku**. *(viz obrázek níže)*
+									  Pokud máte naimportovány tiskárny **pomocí našeho software**, můžete štítky rovnou vytisknout na tiskárně. 
 		- **Nevytištěné** - níže naleznete odkazy pro **stažení štítků** pro jednotlivé dopravce. Vytisknuté štítky jsou ve výchozím nastavení ve formátu **PDF**. Pokud máte naimportovány tiskárny **pomocí našeho software**, můžete štítky rovnou vytisknout na tiskárně.
 
 ![Pokročilý tisk štítků](/img/package/overview/advanced-print.png)
