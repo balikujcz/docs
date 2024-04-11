@@ -69,6 +69,9 @@ V přehledu objednávek má každá objednávka svou kartu s informacemi také o
 
 ![Zobrazení objednávky](/img/order/overview/order-single.png)
 
+:::tip
+Pro zobrazení jednotlivých položek objednávky je nutné mít aktivní volbu **Přehled objednávek s položkami** v sekci **Nastavení** -> **Objednávky** -> **Základní nastavení**. Pro podrobnější informace klikněte **[zde](/docs/documentation/settings/orders/order-settings).**
+:::
 	- **Tlačítko vybrat objednávku** - pokud je toto tlačítko zaškrtnuto (viz na obrázku výše) znamená to, že je aktuální objednávka vybrána a lze s ní provádět akce.
 	- **Číslo objednávky** - číslo objednávky je u každé položky v přehledu zobrazeno **tučným** písmem, černou barvou (viz na obrázku výše č. **00021**).
 	
