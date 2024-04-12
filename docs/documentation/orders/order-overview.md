@@ -47,7 +47,7 @@ Tato sekce slouží pro seznámení se s akcemi objednávek, jako je tisk, expor
 	- **Vybrat všechny objednávky** - v levé části tohoto menu se nachází tlačítko pro výběr všech objednávek. Tato akce se projeví graficky u každé objednávky zobrazením modrého čtverce s fajfkou.
 	- **Tlačítko aktualizace** - tlačítko vyznačující se modrým kruhem uvnitř. Proběhne **update** a následné **zobrazení nových objednávek** v případě jejich existence.
 	- **Tlačítko akce** - po kliknutí na tlačítko **Akce** se zobrazí dropdown menu s nabízenými akcemi:
-	- **Vytvořit zásilky a štítky** - vytvoření zásilky a následný tisk štítku v jednom kroku. Po zvolení této akce se zobrazí nové okno, kde naleznete základní informace o nově vytvořených zásilkách. **[Více o tisknutí štítků zde](/docs/documentation/packages/order-create-printing)**
+	- **Vytvořit zásilky a štítky** - vytvoření zásilky a následný tisk štítku v jednom kroku. Po zvolení této akce se zobrazí nové okno, kde naleznete základní informace o nově vytvořených zásilkách. **[Více o tisknutí štítků zde](/docs/documentation/packages/package-printing)**
 	- **Označit jako vyřešeno / nevyřešeno** - po kliknutí na toto pole se zvolené objednávky označí jako **vyřešeno** či **nevyřešeno**. V případě označení jako **vyřeseno** se tato volba projeví graficky u každé objednávky zobrazením zeleného čtverce s fajfkou. V opačném případě je tento čtverec šedý.
 	- **Tlačítko tisk** - najetím myší na tlačítko **Tisk** se zobrazí možnost pro tisk **Objednávky v PDF**.
 

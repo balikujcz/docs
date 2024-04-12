@@ -15,7 +15,7 @@ Toto menu obsahuje na své levé části číslo objednávky. Na pravé straně 
 
 - **Zabalit** - slouží k pickingu. Pro více informací o pickingu navštivte [Picking](/docs/documentation/orders/order-picking).
 - **Akce**
-    - Vytvořit zásilky a štítky - vytvoření zásilky a následný tisk štítku v jednom kroku. Po zvolení této akce se zobrazí nové okno, kde naleznete základní informace o vytvořené zásilce a dále možnosti pro tisk štítků. **[Více o tisknutí štítků zde](/docs/documentation/packages/order-create-printing)**
+    - Vytvořit zásilky a štítky - vytvoření zásilky a následný tisk štítku v jednom kroku. Po zvolení této akce se zobrazí nové okno, kde naleznete základní informace o vytvořené zásilce a dále možnosti pro tisk štítků. **[Více o tisknutí štítků zde](/docs/documentation/packages/package-printing)**
     - Objednávka v PDF - kliknutím bude stažen PDF soubor obsahující detail objednávky.
     - Pokročilý tisk štítků - tato volba zobrazí nové okno, kde můžete vybrat způsob tisku štítků. **[Více o tisknutí štítků zde](/docs/documentation/packages/package-printing)**
 - **Zpět** - Toto tlačítko vás vrátí zpět na seznam objednávek.
