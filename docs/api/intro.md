@@ -4,9 +4,9 @@ sidebar_position: 1
 
 # API rozhraní
 
-API rozhraní je k dispozici pro všechny zákazníky balíkuj.cz zcela zdarma. Pomocí API rozhraní můžete automatizovat všechny úkony, které vidíte v našem administračním rozhraní [`https://app.balikuj.cz`](https://app.balikuj.cz) a nejen to. Díky API rozhraní můžete vytvářet zásilky, tisknout štítky, sledovat zásilky, importovat a exportovat zásilky, vytvářet dávky pro dopravce a mnoho dalšího.
+API rozhraní je k dispozici pro všechny zákazníky Balíkuj zcela zdarma. Pomocí API rozhraní můžete automatizovat všechny úkony, které vidíte v našem administračním rozhraní [`https://app.balikuj.cz`](https://app.balikuj.cz) a nejen to. Díky API rozhraní můžete vytvářet zásilky, tisknout štítky, sledovat zásilky, importovat a exportovat zásilky, vytvářet dávky pro dopravce a mnoho dalšího.
 
-Pomocí API rozhraní můžete také spravovat své objednávky, vytvářet pravidla s objednávkami nebo vyřizovat objednávky z různých eshopů na jednom místě.
+Pomocí API rozhraní můžete také spravovat své objednávky, vytvářet pravidla s objednávkami nebo vyřizovat objednávky z různých e-shopů na jednom místě.
 
 ## Základní informace
 API rozhraní je dostupné na adrese [`https://api.balikuj.cz`](https://api.balikuj.cz) a je založeno na REST architektuře. Všechny požadavky na API rozhraní musí být zabezpečeny pomocí [autentizace](/docs/api/pripojeni-do-api) a jsou přístupné pouze přes šifrované HTTPS spojení. Veškerá komunikace s API rozhraním probíhá pomocí formátu dat v JSON (požadavky i odpovědi).

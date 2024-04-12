@@ -3,7 +3,7 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-    title: 'Balíkuj.cz',
+    title: 'Balíkuj',
     tagline: 'Rychle. Přehledně. Bezpečně.',
     favicon: 'img/favicon.ico',
     staticDirectories: ['static'],
@@ -58,7 +58,7 @@ const config: Config = {
     themeConfig: {
         announcementBar: {
             id: 'newfeatures',
-            content: 'Máte nápad na novou funkci, něco Vám v balíkuj.cz nefunguje nebo chybí? <a target="_blank" rel="noopener noreferrer" href="https://www.balikuj.cz">Napište nám!</a>',
+            content: 'Máte nápad na novou funkci, něco Vám v Balíkuj nefunguje nebo chybí? <a target="_blank" rel="noopener noreferrer" href="https://www.balikuj.cz">Napište nám!</a>',
             backgroundColor: '#303846',
             textColor: '#fff',
             isCloseable: false,
@@ -66,9 +66,9 @@ const config: Config = {
         // Replace with your project's social card
         image: 'img/docusaurus-social-card.jpg',
         navbar: {
-            title: 'Balíkuj.cz',
+            title: 'Balíkuj',
             logo: {
-                alt: 'Balíkuj.cz Dokumentace',
+                alt: 'Balíkuj Dokumentace',
                 src: 'img/logo.svg',
             },
             items: [
@@ -83,6 +83,12 @@ const config: Config = {
                     sidebarId: 'carrierSidebar',
                     position: 'left',
                     label: 'Dopravci',
+                },
+                {
+                    type: 'docSidebar',
+                    sidebarId: 'applicationSidebar',
+                    position: 'left',
+                    label: 'Aplikace',
                 },
                 {
                     type: 'docSidebar',
@@ -115,7 +121,7 @@ const config: Config = {
                     title: 'Dokumentace',
                     items: [
                         {
-                            label: 'Úvod do služby balíkuj.cz',
+                            label: 'Úvod do služby Balíkuj',
                             to: '/docs/documentation/intro',
                         },
                     ],
@@ -151,7 +157,7 @@ const config: Config = {
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} balíkuj.cz`,
+            copyright: `Copyright © ${new Date().getFullYear()} Balíkuj`,
         },
         prism: {
             additionalLanguages: ['csharp', 'php', 'json'],

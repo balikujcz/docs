@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # Přehled objednávek
-Zde najdete rozhraní pro správu veškerých objednávek ze všech Vašich eshopů, které jste do aplikace Balíkuj.cz importovali z eshopových platforem jako například Upgates, Shoptet apod. 
+Zde najdete rozhraní pro správu veškerých objednávek ze všech Vašich e-shopů, které jste do aplikace Balíkuj importovali z e-shopových platforem jako například Upgates, Shoptet apod. 
 Tato sekce Vám umožňuje sledovat stav jednotlivých objednávek a
 poskytnout Vám úplný přehled o jejich stavu.
 S Balíkuj můžete snadno spravovat všechny Vaše objednávky na jednom místě s cílem zefektivnit a zrychlit celý proces expedice zboží.

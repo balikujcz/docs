@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # Platební metody
-Slouží k **nastavení** a **přidání** platebních metod v aplikaci **Balíkuj.cz**.
+Slouží k **nastavení** a **přidání** platebních metod v aplikaci **Balíkuj**.
 
 ![Platební matoda](/img/settings/order/order-payment.png)
 

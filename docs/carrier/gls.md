@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # GLS Czech Republic s.r.o.
-V této sekci nalenezte informace o dopravci General Logistics Systems Czech Republic s.r.o. (GLS), který je v současné době podporován v balíkuj.cz.
+V této sekci nalenezte informace o dopravci General Logistics Systems Czech Republic s.r.o. (GLS), který je v současné době podporován v Balíkuj.
 
 import CarrierHelpInfo from '@site/docs/carrier/_help-info.md';
 

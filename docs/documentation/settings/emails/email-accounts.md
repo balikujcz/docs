@@ -8,7 +8,7 @@ Na této stránce naleznete informace o tom ...
 
 ## Přehled emailových účtů
 
-K přehledu emailových účtů se dostanece v aplikaci **Balíkuj.cz** pomocí navigace: **Nastavení** -> **Emaily** -> **Emailové účty**. Následně se zobrazí stránka s přehledem všech emailových účtů k Vašemu účtu.
+K přehledu emailových účtů se dostanece v aplikaci **Balíkuj** pomocí navigace: **Nastavení** -> **Emaily** -> **Emailové účty**. Následně se zobrazí stránka s přehledem všech emailových účtů k Vašemu účtu.
 
 ![Zobrazení adres](/img/settings/email/email-account-overview.png)
 

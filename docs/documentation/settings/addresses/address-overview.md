@@ -12,7 +12,7 @@ Na této stránce naleznete přehled adres s možností vytvoření nové adresy
 Kliknutím na tlačítko **Přidat adresu** Vám bude zobrazen formulář pro vyplnění údajů k dané adrese. Kliknutím na tlačítko **Přidat adresu** bude nová adresa uložena a budete ji moci využívat ve svých zásilkách.
 
 :::tip
-	Tým Balíkuj.cz doporučuje **vytváření** a **udržování adres**, při vytváření zásilek Vám tato funkce může **ušetřit až 70% času** vyplňování údajů a především **zmenšíte chybovost** při přepisování adres. :relieved:
+	Tým Balíkuj doporučuje **vytváření** a **udržování adres**, při vytváření zásilek Vám tato funkce může **ušetřit až 70% času** vyplňování údajů a především **zmenšíte chybovost** při přepisování adres. :relieved:
 :::
 ## Duplikace adresy
 Kliknutím na kartu dané adresy Vám budou zobrazena pole s informacemi o adrese. Kliknutím na tlačítko **Duplikovat** bude načtena nová karta s předvolbou totožných informací

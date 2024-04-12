@@ -3,12 +3,12 @@ sidebar_position: 1
 ---
 
 # Vytvoření štítků a zásilek
-S Balíkuj.cz můžete snadno a rychle pro své objednávky vytvořit zásilky. S funkcí tisku štítků přímo z aplikace získáváte ještě větší kontrolu nad Vašimi zásilkami
-a minimalizujete riziko chyb při jejich ručním vytváření. Zde naleznete podrobné informace k použití funkce k vytváření zásilek a tisku štítků v Balíkuj.cz, abyste mohli co nejlépe využít všech výhod, které naše platforma nabízí. 
+S Balíkuj můžete snadno a rychle pro své objednávky vytvořit zásilky. S funkcí tisku štítků přímo z aplikace získáváte ještě větší kontrolu nad Vašimi zásilkami
+a minimalizujete riziko chyb při jejich ručním vytváření. Zde naleznete podrobné informace k použití funkce k vytváření zásilek a tisku štítků v Balíkuj, abyste mohli co nejlépe využít všech výhod, které naše platforma nabízí. 
 
 ## Jak se dostat k vytvoření zásilek?
 
-Pro tisknutí zásilek v **Balíkuj.cz** navštivte sekci **Objednávky** -> **Přehled objednávek**. Zde je návod k nalezení tlačítka [**Vytvořit zásilky a štítky**.](/docs/documentation/orders/order-overview#akce-se-objednávkami)
+Pro tisknutí zásilek v **Balíkuj** navštivte sekci **Objednávky** -> **Přehled objednávek**. Zde je návod k nalezení tlačítka [**Vytvořit zásilky a štítky**.](/docs/documentation/orders/order-overview#akce-se-objednávkami)
 
 ### Seznam vytvořených zásilek
 ![Pokročilý tisk štítků](/img/order/order-create-printing/create-print.png)

@@ -3,12 +3,12 @@ sidebar_position: 1
 ---
 
 # Stavy
-Aplikace Balíkuj.cz poskytuje možnost **nastavení stavů** objednávek. Stavy slouží k **rozlišení**
+Aplikace Balíkuj poskytuje možnost **nastavení stavů** objednávek. Stavy slouží k **rozlišení**
 objednávek podle jejich aktuálního stavu a přispívají k **vyšší přehlednosti** nad jednotlivými objednávkami.
 
 ## Přehled stavů
 Pro zobrazení přehledu stavů klikněte v horní navigaci naší aplikace na **Nastavení** -> **Objednávky** -> **Stavy**.
-V přehledu všech stavů se zobrazují všechny stavy, které jsou ve Vaší aplikaci **Balíkuj.cz** nastaveny.
+V přehledu všech stavů se zobrazují všechny stavy, které jsou ve Vaší aplikaci **Balíkuj** nastaveny.
 
 ![Přehled stavů](/img/settings/order/order-states-overview.png)
 
@@ -24,5 +24,5 @@ Pro přidání nového stavu klikněte na tlačítko **Přidat stav** v přehled
 Kliknutím na tlačítko **Přidat stav** se nový stav uloží a zobrazí se v přehledu všech stavů.
 
 :::tip
-Tyto stavy mohou být **namapovány** na stavy z Vašeho **eshopu**.
+Tyto stavy mohou být **namapovány** na stavy z Vašeho **e-shopu**.
 :::

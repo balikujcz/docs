@@ -70,16 +70,16 @@ const sidebars: SidebarsConfig = {
                     label: 'Aplikace',
                     items: [
                         'documentation/settings/application/application-overview',
-                        {
-                            type: 'category',
-                            label: 'Přidání aplikací',
-                            items: [
-                                //'documentation/settings/application/application-add/pohoda',
-                                'documentation/settings/application/application-add/upgates',
-                             // 'documentation/settings/application/application-add/shoptet.md',
+                        //{
+                        //    type: 'category',
+                        //    label: 'Přidání aplikací',
+                        //    items: [
+                        //        //'documentation/settings/application/application-add/pohoda',
+                        //        'documentation/settings/application/application-add/upgates',
+                        //        // 'documentation/settings/application/application-add/shoptet.md',
 
-                            ],
-                        },
+                        //    ],
+                        //},
                     ],
                 },
                 {
@@ -205,6 +205,22 @@ const sidebars: SidebarsConfig = {
                                 'carrier/skdoprava',
                             ],
                         },
+                    ],
+                },
+            ],
+        },
+    ],
+    applicationSidebar: [
+        {
+            type: 'category',
+            label: 'Základní informace',
+            items: [
+                'application/intro',
+                {
+                    type: 'category',
+                    label: 'E-shop platformy',
+                    items: [
+                        'application/upgates',
                     ],
                 },
             ],

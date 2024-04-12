@@ -19,7 +19,7 @@ V zobrazení této karty dokážete zjistit základní údaje o **příjemci zá
 
 
 ### Doplňkové služby a informace
-Rozhraní Balíkuj.cz disponuje i správou doplňkových služeb, jako jsou například: 
+Rozhraní Balíkuj disponuje i správou doplňkových služeb, jako jsou například: 
 
 - **Připojištění** - varianta zásilky s pojištěním.
 - **Dobírka** - možnost pro zaslání zásilky na dobírku.

@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # DPD CZ s.r.o.
-V této sekci nalenezte informace o dopravci DPD CZ s.r.o., který je v současné době podporován v balíkuj.cz.
+V této sekci nalenezte informace o dopravci DPD CZ s.r.o., který je v současné době podporován v Balíkuj.
 
 import CarrierHelpInfo from '@site/docs/carrier/_help-info.md';
 

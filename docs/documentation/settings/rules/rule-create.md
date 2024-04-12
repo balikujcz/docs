@@ -8,7 +8,7 @@ Na této stránce naleznete informace o tom, jak **vytvářet pravidla**, **mož
 
 ## Vytvoření pravidla
 
-Pro vytvoření nového pravidla odkudkoliv z aplikace **Balíkuj.cz** stačí v hlavní navigaci kliknout na **Nastavení** a vybrat **Pravidla**.
+Pro vytvoření nového pravidla odkudkoliv z aplikace **Balíkuj** stačí v hlavní navigaci kliknout na **Nastavení** a vybrat **Pravidla**.
 V navigaci přehledu pravidel klikněte na tlačítko **Vytvořit pravidlo**. Následně budete přesměrováni do **formuláře** pro vytvoření nového pravidla.
 
 ![Přehled podpory](/img/settings/rules/rules-create.png)
@@ -23,7 +23,7 @@ Mezi základní nastavení pravidla patří:
 - **Je aktivní** - určuje, zda bude pravidlo od vytvoření ihned aktivní.
 - **Datum platnosti od / do** - určuje, v jakém časovém období bude pravidlo spuštěno.
 - **Jednorázové spuštění pravidla** - vyberte, pokud chcete spustit pravidlo pouze jednou.
-- **Odeslat systémový email na eshopu** - odešle emaily při změně stavu objednávky pro zvolenou eshopovou platformu.
+- **Odeslat systémový email na e-shopu** - odešle emaily při změně stavu objednávky pro zvolenou e-shopovou platformu.
 - **Spouštět pouze ve dny** - pravidlo bude spouštěno pouze ve vybrané dny (**Pondělí - Neděle**).
 - **Spouštět pouze v čas** - na výběr jsou čtyři šestihodinové časové intervaly, ve kterých chcete pravidlo spustit. 
 

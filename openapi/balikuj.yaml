@@ -1,7 +1,7 @@
 openapi: 3.0.1
 info:
   title: Balikuj.cz API
-  description: API rozhraní pro správu a zasílání balíku na Balíkuj.cz
+  description: API rozhraní pro správu a zasílání balíku na Balíkuj
   termsOfService: https://balikuj.cz/terms
   contact:
     name: Balíkuj Support
@@ -415,7 +415,7 @@ paths:
     get:
       tags:
         - Account
-      summary: Vrátí seznam podporovaných časových zón pro využití v systému Balíkuj.cz
+      summary: Vrátí seznam podporovaných časových zón pro využití v systému Balíkuj
       responses:
         '200':
           description: Success
@@ -6060,7 +6060,7 @@ components:
           nullable: true
         note:
           type: string
-          description: Vlastní poznámka v systému Balíkuj.cz
+          description: Vlastní poznámka v systému Balíkuj
           nullable: true
         orderNumber:
           type: string
@@ -6348,15 +6348,15 @@ components:
           format: int32
         generateDocuments:
           type: boolean
-          description: 'Pokud je vyplněno, tak určuje, zda budou při změně stavu vygenerovány příslušné dokumenty pro danou eshop platformu. Ne všechny eshop aplikace/platformy podporují tuto funkci'
+          description: 'Pokud je vyplněno, tak určuje, zda budou při změně stavu vygenerovány příslušné dokumenty pro danou e-shop platformu. Ne všechny e-shop aplikace/platformy podporují tuto funkci'
           nullable: true
         generateSms:
           type: boolean
-          description: 'Pokud je vyplněno, tak určuje, zda budou při změně stavu objednávky vygenerovány SMS zprávy. Nastavení dle zvolené eshop aplikace/platformy podporující tuto funkci'
+          description: 'Pokud je vyplněno, tak určuje, zda budou při změně stavu objednávky vygenerovány SMS zprávy. Nastavení dle zvolené e-shop aplikace/platformy podporující tuto funkci'
           nullable: true
         generateEmail:
           type: boolean
-          description: 'Pokud je vyplněno, tak určuje, zda budou při změně stavu objednávky vygenerovány emailové zprávy. Nastavení dle zvolené eshop aplikace/platformy podporující tuto funkci'
+          description: 'Pokud je vyplněno, tak určuje, zda budou při změně stavu objednávky vygenerovány emailové zprávy. Nastavení dle zvolené e-shop aplikace/platformy podporující tuto funkci'
           nullable: true
       additionalProperties: false
     OrderStatusCreateModel:
@@ -7029,7 +7029,7 @@ components:
           nullable: true
         sendOrderEmail:
           type: boolean
-          description: 'Pokud je nastaveno na true, odešlou se systémové emaily (na eshopu)'
+          description: 'Pokud je nastaveno na true, odešlou se systémové emaily (na e-shopu)'
         conditions:
           type: array
           items:
