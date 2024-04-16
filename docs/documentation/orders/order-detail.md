@@ -50,7 +50,7 @@ U každé položky naleznete následující informace:
 ![Detail objednávky](/img/order/detail/order-detail.png)
 
 - **Název produktu** - název produktu, který zákazník objednal.
-- **Parametry produktu** - informace o produktu, které zákazník vybral.
+- **Parametry produktu** - informace o produktu, který zákazník vybral.
 - **Množství** - počet kusů objednaného produktu.
 - **Jednotková cena** - Cena za jednu položku daného produktu.
 - **DPH** - Daň z přidané hodnoty.
