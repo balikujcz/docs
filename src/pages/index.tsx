@@ -16,13 +16,13 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/api/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
+        {/*<div className={styles.buttons}>*/}
+        {/*  <Link*/}
+        {/*    className="button button--secondary button--lg"*/}
+        {/*    to="/docs/api/intro">*/}
+        {/*    Docusaurus Tutorial - 5min ⏱️*/}
+        {/*  </Link>*/}
+        {/*</div>*/}
       </div>
     </header>
   );
@@ -33,7 +33,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`Dokumentace ke službě Balíkuj ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Na tomto webu naleznete dokumentaci ke službě Balíkuj včetně návodů a tutoriálů">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

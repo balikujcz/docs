@@ -3,8 +3,8 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-    title: 'Balíkuj',
-    tagline: 'Rychle. Přehledně. Bezpečně.',
+    title: 'Balíkuj.cz',
+    tagline: 'Expedujte rychle, jednoduše a bezchybně',
     favicon: 'img/favicon.ico',
     staticDirectories: ['static'],
 
@@ -66,10 +66,9 @@ const config: Config = {
         // Replace with your project's social card
         image: 'img/docusaurus-social-card.jpg',
         navbar: {
-            title: 'Balíkuj',
             logo: {
                 alt: 'Balíkuj Dokumentace',
-                src: 'img/logo.svg',
+                src: 'img/logo.png',
             },
             items: [
                 {
@@ -124,22 +123,34 @@ const config: Config = {
                             label: 'Úvod do služby Balíkuj',
                             to: '/docs/documentation/intro',
                         },
+                        {
+                            label: 'Dopravci',
+                            to: '/docs/carrier/intro',
+                        },
+                        {
+                            label: 'Aplikace',
+                            to: '/docs/application/intro',
+                        },
+                        {
+                            label: 'API',
+                            to: '/docs/api/intro',
+                        },
                     ],
                 },
                 {
-                    title: 'Community',
+                    title: 'Podpora Balíkuj',
                     items: [
                         {
-                            label: 'Stack Overflow',
-                            href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                            label: 'Web Balíkuj.cz',
+                            href: 'https://balikuj.cz',
                         },
                         {
-                            label: 'Discord',
-                            href: 'https://discordapp.com/invite/docusaurus',
+                            label: 'Diskusní fórum',
+                            href: 'https://app.balikuj.cz/help/main',
                         },
                         {
-                            label: 'Twitter',
-                            href: 'https://twitter.com/docusaurus',
+                            label: 'Administrace',
+                            href: 'https://app.balikuj.cz',
                         },
                     ],
                 },
@@ -152,7 +163,7 @@ const config: Config = {
                         //},
                         {
                             label: 'GitHub',
-                            href: 'https://github.com/facebook/docusaurus',
+                            href: 'https://github.com/balikujcz',
                         },
                     ],
                 },
