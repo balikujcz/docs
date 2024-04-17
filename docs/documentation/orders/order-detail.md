@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Detail objednávky
 
-Na této stránce nalezenete informace o jednotlivých částech přehledu detailu objednávky
+Na této stránce naleznete informace o jednotlivých částech přehledu detailu objednávky
 a jejich význam. Detail objednávky se skládá z několika hlavních sekcí: Základní 
 informace a fakturační adresa, dodací adresa, přehled jednotlivých částí zboží v objednávce. 
 

@@ -36,7 +36,7 @@ V hlavičce stránky naleznete sekci, která slouží k filtrování přehledu V
 	- **Vytvořeno od / do** - možnost výběru intervalu, ve kterém chcete zobrazit hledané zásilky.
 
 :::tip
-	Pokud vyberete pouze **datum od**, zobrazí se všechny zásilky od daného datumu až k aktuálnímu dni.
+	Pokud vyberete pouze **datum od**, zobrazí se všechny zásilky od daného data až k aktuálnímu dni.
 :::
 	 
 	 - **Seřadit podle** - možnost výběru, zda chcete řadit od **nejnovějších** či **nejstarších** zásilek.

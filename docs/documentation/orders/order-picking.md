@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # Picking objednávek
-Picking objednávek nabízí možnost bezchybného vyskladnění objednávek především díky využítí čárových kódů. Picking je proces, kdy se zboží vybírá z regálů, skenuje se pomocí hardwarové čtečky čárových kódů (není vyžadováno, můžete provádět i pomocí klávesnice + myši) a 
+Picking objednávek nabízí možnost bezchybného vyskladnění objednávek především díky využití čárových kódů. Picking je proces, kdy se zboží vybírá z regálů, skenuje se pomocí hardwarové čtečky čárových kódů (není vyžadováno, můžete provádět i pomocí klávesnice + myši) a 
 připravuje k expedici.
 
 Picking objednávek máme v rámci Balíkuj implementován prostřednictvím sekce **Objednávky** -> **Picking a balení**.
@@ -27,7 +27,7 @@ Pokud ještě v systému Balíkuj nepoužíváte žádné tiskárny, přidejte s
 :::
 
 ### Další nastavení picking
-Pro úspešný picking objednávek je potřeba mít nastavenu váhu objednávky, dopravce a službu dopravce. Tyto informace můžete zpětně nastavit v přehledu objednávek na **Objednávky** -> **Přehled objednávek**. Tyto údaje se berou automaticky z příchozích objednávek. Pokud se Vám tyto údaje nepropisují, máte něco špatně nastaveno - kontaktujte nás, pomůžeme Vám.
+Pro úspěšný picking objednávek je potřeba mít nastavenu váhu objednávky, dopravce a službu dopravce. Tyto informace můžete zpětně nastavit v přehledu objednávek na **Objednávky** -> **Přehled objednávek**. Tyto údaje se berou automaticky z příchozích objednávek. Pokud se Vám tyto údaje nepropisují, máte něco špatně nastaveno - kontaktujte nás, pomůžeme Vám.
 
 
 ## Hardware pro picking

@@ -21,7 +21,7 @@ Aktivovat aplikaci si můžete v naší administraci v sekci **Nastavení** -> *
 Pro aktivaci aplikace budete potřebovat přístupové údaje k API rozhraní Upgates. Tyto údaje získáte v administraci svého obchodu v sekci **Doplňky** ->
 **API**.
 
-Více informací o API přístupech v e-shopovém řešení Upgates nalenete na adrese [https://www.upgates.cz/api-v2 ↗️](https://www.upgates.cz/api-v2) nebo v 
+Více informací o API přístupech v e-shopovém řešení Upgates naleznete na adrese [https://www.upgates.cz/api-v2 ↗️](https://www.upgates.cz/api-v2) nebo v 
 oficiální dokumentaci na [https://upgatesapiv2.docs.apiary.io ↗️](https://upgatesapiv2.docs.apiary.io)
 
 ### Vytvoření přístupových údajů 
@@ -32,7 +32,7 @@ Pro úspěšné napojení na Upgates potřebujete vytvořit si nový Token. Post
 
 1. Nový token si vytvoříte v sekci **API** kliknutím na tlačítko **+ Nové**. 
 2. Do pole **Název** zadejte textový popis, který Vám pomůže identifikovat token.
-3. Vyberte oprávnění, které tento token bude nabízet. Pro správnout funkčnost systému potřebujeme vybrat minimálně:
+3. Vyberte oprávnění, které tento token bude nabízet. Pro správnou funkčnost systému potřebujeme vybrat minimálně:
 	* **Objednávky** -> **Čtení a  zápis**
 	* **Produkty** -> **Čtení a  zápis**
 	* **Kategorie** -> **Čtení a  zápis**
@@ -56,7 +56,7 @@ Pro nastavení/aktivaci aplikace je třeba zadat **Doména nebo označení e-sho
 Jako další můžete vyplnit **Poznámku**, která se zobrazí v přehledu aplikací.
 
 ### Přihlašovací údaje
-V této sekci je třeba nastvit přihlašovací údaje do API Upgates, které jste si nastavili/vygenerovali v předchozím kroku. Zadávat budete:
+V této sekci je třeba nastavit přihlašovací údaje do API Upgates, které jste si nastavili/vygenerovali v předchozím kroku. Zadávat budete:
 1. **API Login** - jedná se o textovou hodnotu, kterou vygenerovala administrace Upgates
 2. **API Klíč** - jedná se o textovou hodnotu, kterou vygenerovala administrace Upgates
 3. **Název e-shopu** - název/označení e-shopu. Je to textová hodnota v URL ve tvaru `https://<nazeve-shopu>.admin.<znackaserveru>.upgates.com`

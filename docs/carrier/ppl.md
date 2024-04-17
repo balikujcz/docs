@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # PPL CZ s.r.o.
-V této sekci nalenezte informace o dopravci PPL CZ s.r.o., který je v současné době podporován v Balíkuj.
+V této sekci naleznetenaleznete informace o dopravci PPL CZ s.r.o., který je v současné době podporován v Balíkuj.
 
 import CarrierHelpInfo from '@site/docs/carrier/_help-info.md';
 
@@ -16,7 +16,7 @@ import CarrierHelpInfo from '@site/docs/carrier/_help-info.md';
 | Název dopravce | **PPL CZ s.r.o.** |
 | Kód dopravce | **`PPL`** |
 | Webové stránky | [ppl.cz ↗️](https://www.ppl.cz/) |
-| Stav | ✅️ Implementopváno | 
+| Stav | ✅️ Implementováno | 
 
 
 ## Podporované služby

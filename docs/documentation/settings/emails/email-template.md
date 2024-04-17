@@ -8,7 +8,7 @@ Na této stránce se dozvíte vše o základní manipulaci a nastavení Vašich 
 
 ## Přehled emailových šablon
 
-K přehledu emailových šablon se dostanece v aplikaci **Balíkuj** pomocí navigace: **Nastavení** -> **Emaily** -> **Emailové šablony**. Následně se zobrazí stránka s přehledem všech emailových šablon k Vašemu účtu.
+K přehledu emailových šablon se dostanete v aplikaci **Balíkuj** pomocí navigace: **Nastavení** -> **Emaily** -> **Emailové šablony**. Následně se zobrazí stránka s přehledem všech emailových šablon k Vašemu účtu.
 
 ![Zobrazení adres](/img/settings/email/email-template-overview.png)
 

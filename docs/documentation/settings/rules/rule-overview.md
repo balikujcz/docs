@@ -35,5 +35,5 @@ Pro správnou funkčnost pravidel, je důležité mít správně nastavené jeji
 
 ## Smazání pravidla
 
-Kliknutím na tlačítko **Smazat** (*ikona červeného křížku v pravo u jednotlivých pravidel*) se zobrazí pole s upozorněním, zda si opravdu přejete smazat dané pravidlo.
+Kliknutím na tlačítko **Smazat** (*ikona červeného křížku vpravo u jednotlivých pravidel*) se zobrazí pole s upozorněním, zda si opravdu přejete smazat dané pravidlo.
 Následným **odsouhlasením** tohoto dotazu bude pravidlo trvale **smazáno**.

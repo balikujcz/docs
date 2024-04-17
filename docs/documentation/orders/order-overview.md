@@ -29,7 +29,7 @@ V horní části rozhraní se nachází sekce, která slouží k filtrování p�
 	- **Vytvořeno od / do** - možnost výběru intervalu, ve kterém chcete zobrazit hledané objednávky.
 
 :::tip
-	Pokud vyberete pouze **datum od**, zobrazí se všechny objednávky od daného datumu až k aktuálnímu dni.
+	Pokud vyberete pouze **datum od**, zobrazí se všechny objednávky od daného data až k aktuálnímu dni.
 :::
 	 
 	 - **Seřadit podle** - možnost výběru, zda chcete řadit od **nejnovějších** či **nejstarších** objednávek. Dále lze řadit podle **čísla objednávky** a **doby poslední změny**.
@@ -48,7 +48,7 @@ Tato sekce slouží pro seznámení se s akcemi objednávek, jako je tisk, expor
 	- **Tlačítko aktualizace** - tlačítko vyznačující se modrým kruhem uvnitř. Proběhne **update** a následné **zobrazení nových objednávek** v případě jejich existence.
 	- **Tlačítko akce** - po kliknutí na tlačítko **Akce** se zobrazí dropdown menu s nabízenými akcemi:
 	- **Vytvořit zásilky a štítky** - vytvoření zásilky a následný tisk štítku v jednom kroku. Po zvolení této akce se zobrazí nové okno, kde naleznete základní informace o nově vytvořených zásilkách. **[Více o tisknutí štítků zde](/docs/documentation/packages/package-printing)**
-	- **Označit jako vyřešeno / nevyřešeno** - po kliknutí na toto pole se zvolené objednávky označí jako **vyřešeno** či **nevyřešeno**. V případě označení jako **vyřeseno** se tato volba projeví graficky u každé objednávky zobrazením zeleného čtverce s fajfkou. V opačném případě je tento čtverec šedý.
+	- **Označit jako vyřešeno / nevyřešeno** - po kliknutí na toto pole se zvolené objednávky označí jako **vyřešeno** či **nevyřešeno**. V případě označení jako **vyřešeno** se tato volba projeví graficky u každé objednávky zobrazením zeleného čtverce s fajfkou. V opačném případě je tento čtverec šedý.
 	- **Tlačítko tisk** - najetím myší na tlačítko **Tisk** se zobrazí možnost pro tisk **Objednávky v PDF**.
 
 :::note

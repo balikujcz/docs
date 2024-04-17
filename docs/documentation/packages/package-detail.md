@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Detail zásilky
 
-Na této stránce nalezenete informace o jednotlivých částech přehledu detailu zásilky a jejich význam. Detail zásilky se skládá ze **dvou** hlavních sekcí: **Základní informace** a **Stav zásilky**.
+Na této stránce naleznete informace o jednotlivých částech přehledu detailu zásilky a jejich význam. Detail zásilky se skládá ze **dvou** hlavních sekcí: **Základní informace** a **Stav zásilky**.
 Přepínání mezi těmito sekcemi je v horní části stránky.
 
 
