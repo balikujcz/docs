@@ -196,6 +196,7 @@ const sidebars: SidebarsConfig = {
                                 'carrier/gls',
                                 'carrier/ppl',
                                 'carrier/wedo',
+                                'carrier/packeta',
                             ],
                         },
                         {

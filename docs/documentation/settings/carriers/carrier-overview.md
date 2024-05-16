@@ -10,7 +10,7 @@ K přehledu těchto dopravců se dostanete pomocí navigace v aplikaci **Nastave
 ![Zobrazení dopravců](/img/settings/carrier/carrier-overview.png)
 
 ## Aktivace dopravce
-Jak aktivovat jednotlivé dopravce se dozvíte z navigace této dokumentace **Nastavení** -> **Dopravci** -> **Aktivace dopravce**.
+Jak aktivovat jednotlivé dopravce se dozvíte z navigace této dokumentace **Dopravci** -> **Aktivace dopravce**.
 
 
 
