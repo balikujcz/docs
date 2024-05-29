@@ -6,11 +6,13 @@ type FeatureItem = {
   title: string;
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: JSX.Element;
+  link: string;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'Dokumentace k administraci',
+    link: '/docs/documentation/intro',
     Svg: require('@site/static/img/docs.svg').default,
     description: (
       <>
@@ -21,6 +23,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Dopravci',
+    link: '/docs/carrier/intro',
     Svg: require('@site/static/img/carrier.svg').default,
     description: (
       <>
@@ -31,6 +34,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'API rozhraní',
+    link: '/docs/api/intro',
     Svg: require('@site/static/img/api.svg').default,
     description: (
       <>
@@ -41,11 +45,11 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, Svg, description, link}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <a href={link}><Svg className={styles.featureSvg} role="img" /></a>
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

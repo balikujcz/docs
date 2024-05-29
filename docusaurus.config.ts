@@ -3,7 +3,7 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-    title: 'Balíkuj.cz',
+    title: 'Balíkuj',
     tagline: 'Expedujte rychle, jednoduše a bezchybně',
     favicon: 'img/favicon.ico',
     staticDirectories: ['static'],
@@ -58,13 +58,13 @@ const config: Config = {
     themeConfig: {
         announcementBar: {
             id: 'newfeatures',
-            content: 'Máte nápad na novou funkci, něco Vám v Balíkuj nefunguje nebo chybí? <a target="_blank" rel="noopener noreferrer" href="https://www.balikuj.cz">Napište nám!</a>',
+            content: 'Máte nápad na novou funkci, něco Vám v Balíkuj nefunguje nebo chybí? <a target="_blank" rel="noopener noreferrer" href="https://balikuj.cz">Napište nám!</a>',
             backgroundColor: '#303846',
             textColor: '#fff',
             isCloseable: false,
         },
         // Replace with your project's social card
-        image: 'img/docusaurus-social-card.jpg',
+        image: 'img/balikuj.png',
         navbar: {
             logo: {
                 alt: 'Balíkuj Dokumentace',
@@ -155,7 +155,7 @@ const config: Config = {
                     ],
                 },
                 {
-                    title: 'More',
+                    title: 'Ostatní',
                     items: [
                         //{
                         //    label: 'Blog',

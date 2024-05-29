@@ -42,3 +42,27 @@ V přehledu všech emailových šablon klikněte na **Přidat emailovou šablonu
 :::tip
 Abyste nemuseli testovat funkčnost Vašich emailových šablon v ostrém provozu, je možno využít **testovacího režimu**. Do tohoto pole můžete zadat adresu Vašeho emailu a **ověřit správné doručení**. 
 :::
+
+## Tagy pro vložení reálných hodnot
+
+Do emailové šablony můžete vkládat také specializované tagy, které se při odeslání emailu nahradí reálnými hodnotami. Tyto tagy jsou ve tvaru **`%Package.PackageNumberCustom%`**.
+
+Pokud se rozhodnete tagy využívat, můžete tak personalizovat emaily uživatelům se stavem objednávky nebo například s odkazem na sledování zásilky.
+
+### Seznam dostupných tagů
+
+Podporované tagy rozšiřujeme na vyžádání a pokud Vám nějaký chybí, stačí napsat a my jej doplníme.
+
+| Tag | Popis |
+| ----------- | ----------- |
+| **`%Package.Id%`** | ID zásilky v Balíkuj |
+| **`%Package.PackageNumberCustom%`** | Vaše označení nebo číslo zásilky |
+| **`%Package.PackageNumberCarrier%`** | Číslo zásilky dopravce |
+| **`%Package.TrackingUrl%`** | Odkaz na sledování stavu zásilky |
+| **`%Package.CarrierCode%`** | Kód dopravce |
+| **`%Package.CarrierName%`** | Název dopravce |
+| **`%Package.ServiceCode%`** | Kód služby |
+| **`%Package.ServiceName%`** | Název služby |
+| **`%Order.Id%`** | ID objednávky v Balíkuj |
+| **`%Order.OrderNumber%`** | Číslo objednávky |
+| **`%Order.TotalToPay%`** | Celková cena |
