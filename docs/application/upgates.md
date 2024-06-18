@@ -17,8 +17,7 @@ Upgates také nabízí integrace s různými platebními bránami, analytickými
 | Stav | ✅️ Implementováno | 
 
 
-Balíkuj v tuto chvíli podporuje dva způsoby napojení na e-shpohovou platformu Upgates. Aktivace přes ověřený doplněk, která nepodléhá API limitům a manuální aktivace pomocí API přístupových údajů do Upgates. 
-
+Balíkuj v tuto chvíli podporuje dva způsoby napojení na e-shpohovou platformu Upgates. Aktivace přes ověřený doplněk, která nepodléhá API limitům a manuální aktivace pomocí API přístupových údajů do Upgates. Pro více info o limitech navštivte dokumentaci [Upgates API ↗️](https://upgatesapiv2.docs.apiary.io/#introduction/rate-limiting).
 
 
 ## Aktivace přes ověřený doplněk
