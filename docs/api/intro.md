@@ -8,6 +8,13 @@ API rozhraní je k dispozici pro všechny zákazníky Balíkuj zcela zdarma. Pom
 
 Pomocí API rozhraní můžete také spravovat své objednávky, vytvářet pravidla s objednávkami nebo vyřizovat objednávky z různých e-shopů na jednom místě.
 
+
+## Balíkuj API dokumentace
+
+:::tip
+Kompletní specifikaci API rozhraní naleznete na adrese **[https://balikuj.docs.apiary.io/](https://balikuj.docs.apiary.io/)**.
+:::
+
 ## Základní informace
 API rozhraní je dostupné na adrese [`https://api.balikuj.cz`](https://api.balikuj.cz) a je založeno na REST architektuře. Všechny požadavky na API rozhraní musí být zabezpečeny pomocí [autentizace](/docs/api/pripojeni-do-api) a jsou přístupné pouze přes šifrované HTTPS spojení. Veškerá komunikace s API rozhraním probíhá pomocí formátu dat v JSON (požadavky i odpovědi).
 
@@ -15,8 +22,6 @@ API rozhraní je dostupné na adrese [`https://api.balikuj.cz`](https://api.bali
 ## Limity API rozhraní
 Pro ochranu před nadbytečným zatěžováním API rozhraní jsou nastaveny limity pro počet požadavků na API rozhraní. Pokud je překročen některý z limitů, API rozhraní vrátí chybovou odpověď s HTTP stavovým kódem 429. V takovém případě je třeba počkat až do dalšího časového intervalu, kdy budou limity resetovány.
 
-## Swagger dokumentace
-Pro snadnější práci s API rozhraním je k dispozici [Swagger dokumentace](https://api.balikuj.cz/swagger/index.html), která obsahuje kompletní seznam dostupných endpointů, jejich parametrů a odpovědí. Díky Swagger dokumentaci můžete vyzkoušet jednotlivé endpointy přímo v prohlížeči.
 
 ## Formát dat
 Jak již bylo několikrát zmíněno, veškerá komunikace probíhá ve formátu JSON. Názvy hodnot jsou v tzv. **camelCase** formátu.

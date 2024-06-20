@@ -227,19 +227,53 @@ const sidebars: SidebarsConfig = {
             ],
         },
     ],
+    videoSidebar: [
+        {
+            type: 'doc',
+            id: 'video/intro',
+            label: 'Úvod'
+        },
+        {
+            type: 'category',
+            label: 'Dopravci',
+            items: [
+                'video/carriers/gls',
+                'video/carriers/dpd',
+                'video/carriers/wedo',
+                'video/carriers/ppl',
+                'video/carriers/zasilkovna',
+                'video/carriers/cp',
+            ],
+        },
+        {
+            type: 'category',
+            label: 'Nastavení',
+            items: [
+                {
+                    type: 'category',
+                    label: 'Adresy',
+                    items: [
+                        'video/settings/address/create'
+                    ],
+                },
+                {
+                    type: 'category',
+                    label: 'Tiskárny',
+                    items: [
+                        'video/settings/print/create'
+                    ],
+                },
+                {
+                    type: 'category',
+                    label: 'Objednávky',
+                    items: [
+                        'video/settings/order/status'
+                    ],
+                },
+            ],
+        },
+    ]
 
-  // But you can create a sidebar manually
-  /*
-  tutorialSidebar: [
-    'intro',
-    'hello',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
-   */
 };
 
 export default sidebars;
