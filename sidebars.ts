@@ -267,9 +267,24 @@ const sidebars: SidebarsConfig = {
                     type: 'category',
                     label: 'Objednávky',
                     items: [
-                        'video/settings/order/status'
+                        'video/settings/order/status',
+                        'video/settings/order/payment'
                     ],
                 },
+                {
+                    type: 'category',
+                    label: 'Pravidla',
+                    items: [
+                        'video/settings/rules/rule-for-status-change',
+                    ],
+                },
+            ],
+        },
+        {
+            type: 'category',
+            label: 'Objednávky',
+            items: [
+                'video/orders/picking',
             ],
         },
     ]
