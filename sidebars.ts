@@ -222,6 +222,7 @@ const sidebars: SidebarsConfig = {
                     label: 'E-shop platformy',
                     items: [
                         'application/upgates',
+                        'application/shoptet',
                     ],
                 },
             ],

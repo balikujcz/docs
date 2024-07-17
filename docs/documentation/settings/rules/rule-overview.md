@@ -37,3 +37,4 @@ Pro správnou funkčnost pravidel, je důležité mít správně nastavené jeji
 
 Kliknutím na tlačítko **Smazat** (*ikona červeného křížku vpravo u jednotlivých pravidel*) se zobrazí pole s upozorněním, zda si opravdu přejete smazat dané pravidlo.
 Následným **odsouhlasením** tohoto dotazu bude pravidlo trvale **smazáno**.
+
