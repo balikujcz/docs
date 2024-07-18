@@ -8,7 +8,7 @@ Shoptet je populární e-shopová platforma, která usnadňuje provozování onl
 jednoduchosti, flexibilitě a robustnosti, což umožňuje podnikatelům snadno a rychle vytvořit a spravovat profesionální e-shop.
 
 Shoptet se pyšní svou schopností integrovat se s různými nástroji a službami, včetně platebních bran, analytických nástrojů a logistiky. 
-Jednou z těchto služeb je Balíkuj, což je platforma zaměřená na správu a optimalizaci logistiky a doručování balíků. Naše integrace s Shoptetem poskytuje uživatelům Shoptetu možnost využívat výhody Balíkuj přímo ze svého e-shopu.
+Jednou z těchto služeb je Balíkuj, což je platforma zaměřená na správu a optimalizaci logistiky a doručování balíků. Naše integrace s Shoptetem poskytuje uživatelům Shoptetu možnost využívat výhody Balíkuj.
 
 ## Základní informace
 | Informace |  |
@@ -22,9 +22,12 @@ Jednou z těchto služeb je Balíkuj, což je platforma zaměřená na správu a
 ## Nastavení exportu objednávek ze Shoptetu
 
 Pro efektivní správu vašich zásilek a logistických procesů je klíčové správně nastavit export objednávek ze Shoptetu do platformy Balíkuj. Tento proces vám umožní automatizovat zpracování objednávek, vytváření štítků a sledování zásilek přímo z administrace Balíkuj.
-Aktuálně Balíkuj podporuje export objednávek ze Shoptetu pomocí XML feedu.
+Aktuálně Balíkuj podporuje export objednávek ze Shoptetu pomocí XML feedu, ale jsme v procesu žádosti o vytvoření **ověřeného doplňku Shoptet**. Bohužel nyní nemáme informace, kdy by mohl být ověřený doplněk Shoptetu schválen.
+
+Funguje to tedy tak, že Balíkuj si stahuje vždy nové nebo změněné objednávky pomocí tohoto XML feedu.
 
 ### Vytvoření exportu objednávek
+Pro vytvoření mapování objednávek ze Shoptetu do Balíkuj, je třeba výše zmiňovaný XML feed správně vytvořit a nastavit.
 V administraci Shoptetu otevřete v bočním menu sekci **Nastavení -> Export objednávek**. Zde najdete možnost **Vytvořit vlastní export**.
 
 ![Shoptet - Aktivace](/img/application/shoptet/template-create.png)
@@ -54,6 +57,8 @@ V detailu šablony exportu objednávek nalezněte sekci **Obsažené sloupce**. 
 
 ![Shoptet - Aktivace](/img/application/shoptet/xml-set.png)
 
+
+**XML kód** k nahrazení:
 
 ```xml
  <ORDER>
@@ -141,10 +146,10 @@ Jak správně nastavit **přístup pro partnera** naleznete [zde](/docs/applicat
 
 ## Zabezpečení exportů
 
-Po kliknutí na odkaz **této stránky** ve varovacím poli se dostanete do detailu nastavení exportů. Pro správnou fuknčnost stačí pouze aktivovat jednoho z vašich již vytvořených partnerů. 
+Po kliknutí na odkaz **této stránky** ve varovacím poli se dostanete do detailu nastavení exportů. Pro správnou funkčnost stačí pouze aktivovat jednoho z vašich již vytvořených partnerů. 
 
 ### Aktivace partnera
-Pro aktivaci postupujde následovně: 
+Pro aktivaci postupujte následovně: 
 
 - Nalezněte již existujícího partnera, kterého chcete aktivovat
 - Ve sloupci **aktivní** klikněte na tlačítko symbolu "**stop** / **pause**".
@@ -156,7 +161,7 @@ Pro aktivaci postupujde následovně:
 ### Vytvoření nového partnera
 Pokud ovšem chcete pro lepší přehlednost vytvořit nového partnera speciálně pro **Balíkuj**, postupujte následovně:
 
-- Kliněte v pravém horním rohu na tlačítko **Přidat**.
+- Klikněte v pravém horním rohu na tlačítko **Přidat**.
 
 ![Shoptet - Aktivace](/img/application/shoptet/create-partner.png)
 
@@ -195,3 +200,66 @@ Následně se zobrazí okno pro vytvoření nové aplikace. Zde vyplňte **zákl
 ![Shoptet - Aktivace](/img/application/shoptet/final-activation.png)
 
 Kliknutím na **Aktivovat aplikaci** aktivujete aplikaci. Pro zobrazení, zda je aplikace aktivní můžete jít opět do přehledu aplikací přes menu **Nastavení** -> **Aplikace**. Vámi **nově vytvořená** aplikace by se zde měla nacházet.
+
+## Mapování dopravy
+
+Veškeré objednávky, které přicházející z e-shopové platformy Shoptet do systému Balíkuj, jsou automaticky mapovány pomocí našeho softwarového řešení.
+Tento proces zajišťuje, že veškerá data o dopravě jsou správně převedena a zpracována bez nutnosti manuálního zásahu, čímž šetří čas a minimalizuje chyby.
+
+Navíc, pro ještě větší flexibilitu a přizpůsobení se specifickým potřebám zákazníků, poskytuje Balíkuj možnost vytvoření vlastního mapování dopravy přímo v administraci.
+To znamená, že zákazníci mohou podle svých preferencí přiřadit jednotlivé dopravní služby z Balíkuj k odpovídajícím službám v Shoptetu.
+
+Například, pokud zákazník využívá službu České pošty "Balík do ruky", může si v administraci Balíkuj vytvořit vlastní mapping této služby a přiřadit jí odpovídající ID podle administrace v Shoptetu. 
+Tento flexibilní přístup umožňuje, aby bylo mapování dopravy plně v souladu s konkrétními požadavky a preferencemi každého zákazníka.
+
+Díky těmto možnostem je zajištěno, že všechny objednávky budou doručovány efektivně a podle očekávání zákazníků, což zvyšuje jejich spokojenost a důvěru v naše řešení.
+
+### Vytvoření vlastního mapování dopravy
+
+Pro vytvoření výše zmíněného mapování dopravy z Shoptetu do Balíkuj **je potřeba mít přidanou aplikaci Shoptet** ve Vaší Balíkuj administraci. Jak celý proces bezchybně zvládnout se dočtete [zde](/docs/application/shoptet#vytvoření-exportu-objednávek).
+Pro vytvoření mapování postupujte následovně:
+
+V administraci Balíkuj přejděte do **Nastavení -> Aplikace**. V přehledu všech vašich aplikací klikněte na aktivní aplikaci **Shoptet** pro přesunutí se do detailu aplikace. V horní části detailu aplikace naleznete tlačítko **Doprava** viz obrázek.
+
+![Shoptet - Aktivace](/img/application/shoptet/shoptet-detail.png)
+
+Po kliknutí na tlačítko **Doprava** se dostanete do karty s přehledem dopravy. Zde naleznete tlačítko **Přidat dopravu**. 
+
+
+![Shoptet - Aktivace](/img/application/shoptet/carrier-mapping-overview.png)
+
+Po kliknutí na toto tlačítko se zobrazí následující okno pro **vytvoření nového mapování dopravy**.
+
+![Shoptet - Aktivace](/img/application/shoptet/add-carrier-mapping.png)
+
+Vyplňte prosím následující údaje:
+
+- **Označení mapování**: Zadejte vlastní název mapování, např. **Česká pošta - Balík do ruky**
+- **Mapovaná doprava z eshopu**: Unikátní identifikátor dopravy z vašeho **Shoptet e-shopu**. Jak toto Id vyhledat pro konkrétní dopravu a službu se dočtete níže [zde](/docs/application/shoptet#vyhledání-identifikátoru-dopravy). 
+- **Dopravce** - Zde vyberte dopravce, který bude **mapován na dopravní službu v Shoptet**. Budete mít možnost vybrat jakéhokoliv Vašeho **aktivního dopravce** v administraci Balíkuj.
+- **Služba** - Zde vyberte službu výše zvoleného dopravce.
+
+Kliknutím na tlačítko **Přidat dopravu** vytvoříte nové mapování dopravy. Nové mapování naleznete opět v **přehledu mapování dopravy** u aplikace Shoptet **v administraci Balíkuj**.
+
+![Shoptet - Aktivace](/img/application/shoptet/added-mapping.png)
+
+### Vyhledání identifikátoru dopravy
+
+Identifikátor dopravy je **unikátní číslo, v budoucnu může být také reprezentován jako posloupnost znaků**, jenž identifikují konkrétní dopravní službu v Shoptetu. Tento identifikátor je potřeba pro správné vytvoření **vlastního mapování dopravy z Shoptetu do Balíkuj**. 
+Pro získání tohoto identifikátoru postupujte následovně.
+
+V administraci Shoptetu otevřete sekci **Nastavení -> Doprava a platby -> Způsob dopravy**. Zde naleznete seznam všech způsobů dopravy. Následně **vyberte konkrétní dopravu**, kterou chcete mapovat do Balíkuj.
+
+
+![Shoptet - Aktivace](/img/application/shoptet/shoptet-carrier-overview.png)
+
+Kliknutím na **název** této služby se dostanete do detailu dopravy. Poté je potřeba nahlédnout do **URL** vašeho prohlížeče, kde se nachází **identifikátor** této dopravy. 
+Vaše aktuální **URL bude vypadat nějak takto**: 
+
+```
+https://www.myshopteteshop.com/admin/doprava-detail/?id=17
+```
+
+Všimněte si **čísla** za **id=**. Toto **číslo** či **posloupnost znaků** je **unikátní identifikátor** této dopravy, který budete potřebovat pro vytvoření **vlastního mapování v Balíkuj**. Pro lepší pochopení si můžete prohlédnout následující obrázek:
+
+![Shoptet - Aktivace](/img/application/shoptet/shoptet-carrier-url.png)
