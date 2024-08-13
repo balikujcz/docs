@@ -19,7 +19,7 @@ Jednou z těchto služeb je Balíkuj, což je platforma zaměřená na správu a
 | Stav | ✅️ Implementováno |  
 
 
-## Nastavení exportu objednávek ze Shoptetu
+## Nastavení exportu objednávek a produktů ze Shoptetu
 
 Pro efektivní správu vašich zásilek a logistických procesů je klíčové správně nastavit export objednávek ze Shoptetu do platformy Balíkuj. Tento proces vám umožní automatizovat zpracování objednávek, vytváření štítků a sledování zásilek přímo z administrace Balíkuj.
 Aktuálně Balíkuj podporuje export objednávek ze Shoptetu pomocí XML feedu, ale jsme v procesu žádosti o vytvoření **ověřeného doplňku Shoptet**. Bohužel nyní nemáme informace, kdy by mohl být ověřený doplněk Shoptetu schválen.
@@ -137,12 +137,37 @@ Následně v prostředí šablony klikněte na tlačítko **Uložit**.
 
 ### Nastavení zabezpečení exportů
 
-V bočním menu opět vyberte sekci **Nastavení -> Export**. V případě, že nemáte aktivní žádný **přístup pro partnera** se v sekci **Zabezpečení exportů** se může zobrazit následující varování: 
+V bočním menu opět vyberte sekci **Objednávky -> Export**. V případě, že nemáte aktivní žádný **přístup pro partnera** se v sekci **Zabezpečení exportů** se může zobrazit následující varování: 
 
 ![Shoptet - Aktivace](/img/application/shoptet/export-security.png)
 
 Pro správnou funkčnost exportu objednávek do Balíkuj je nutné vytvořit nový **přístup pro partnera**. Tento přístup vytvoříte kliknutím na odkaz **této stránce** ve varovacím poli (viz obrázek varování). 
 Jak správně nastavit **přístup pro partnera** naleznete [zde](/docs/application/shoptet#zabezpečení-exportů).
+
+### Nastavení zahrnutí objednávek
+
+V bočním menu vyberte sekci **Objednávky -> Export**. V sekci **Zahrnout objednávky** vyberte **Jen nové nebo změněné**. 
+Následně vám bude zobrazena další pole. Do těchto polí není potřeba zadávat ani upravovat žádné údaje. Vše by se mělo provádět automaticky viz obrázek níže.
+
+![Shoptet - Aktivace](/img/application/shoptet/export-new-or-edited.png)
+
+:::warning 
+**Upozornění**: Ujistěte se, že při zkopírování finálního odkazu (viz níže v dokumentaci a procesu aktivace aplikace) byla vybrana tato možnost **Jen nové nebo změněné**.
+:::
+
+### Vytvoření exportu produktů
+V administraci Shoptetu otevřete sekci **Nastavení -> Produkty**. Následně Vám bude zobrazena úvodní strana pro export produktů. V sekci **Typ** zaškrtněte možnost **systémový: Kompletní export - XML**.
+
+![Shoptet - Aktivace](/img/application/shoptet/product-export.png)
+
+Následně na této stránce níže naleznete sekci **Permanentní odkaz zvoleného exportu**. Zde prosím zkopírujte odkaz pro export produktů.
+
+![Shoptet - Aktivace](/img/application/shoptet/product-export-link.png)
+
+Nyní přejděte do administrace **Balíkuj**. V horním menu vyberte **Nastavení -> Aplikace**. Zde vyberte vaši **Shoptet** aplikaci a v kartě základní nastavení vložte tento odkaz do sekce **Nastavení XML exportů**, do pole **Adresa XML exportu produktů**.
+Můžete zde také nastavit **Interval aktualizace produktů** - představuje v jakém intervalu aktualizace proběhne (jednou denně, každou hodinu, každé 3 hodiny, atd..).
+
+![Shoptet - Aktivace](/img/application/shoptet/address-xml-product.png)
 
 ## Zabezpečení exportů
 
@@ -163,15 +188,13 @@ Pokud ovšem chcete pro lepší přehlednost vytvořit nového partnera speciál
 
 - Klikněte v pravém horním rohu na tlačítko **Přidat**.
 
-![Shoptet - Aktivace](/img/application/shoptet/create-partner.png)
-
 - Následně se Vám zobrazí okno pro vytvoření nového partnera.
 - Do pole **Název partnera** zadejte název, např. **Balíkuj** 
 - Do pole **Platný do** zadejte také platnost partnera - do kdy bude partner aktivní.
 - Následně klikněte na tlačítko **Přidat**.
-- Aktivujte nově vytvořeného partnera podle postupu popsaného [zde](/docs/application/shoptet#aktivace-partnera).
 
-![Shoptet - Aktivace](/img/application/shoptet/add-partner.png)
+
+![Shoptet - Aktivace](/img/application/shoptet/create-partner.png)
 
 
 ## Přidání aplikace Shoptet do Balíkuj
@@ -194,10 +217,32 @@ Následně se zobrazí okno pro vytvoření nové aplikace. Zde vyplňte **zákl
 
 - **Doména eshopu**: Zadejte doménu nebo označení vašeho e-shopu
 - **Poznámka**: Zadejte libovolnou poznámku, např. **Shoptet**
-- **Adresa XML exportu objednávek**: Zkopírujte odkaz na XML export objednávek ze Shoptetu a vložte jej do tohoto pole
-- **Interval aktualizace objednávek**: Zvolte interval, ve kterém se budou objednávky z Shoptetu aktualizovat v Balíkuj
+- **Nestahovat objednávky ve stavech**: Zde uveďte všechny stavy, ve kterých **nechcete stahovat objednávky**. Např. **Storno, Vráceno, atd..**
 
-![Shoptet - Aktivace](/img/application/shoptet/final-activation.png)
+:::warning
+Prosím dbejte na správné vyplnění stavů, jenž nechcete stahovat objednávky do Balíkuj. Při chybném zadání stavu může dojít k nechtěnému stahování objednávek.
+:::
+
+V sekci **Nastavení XML exportů** naleznete pole pro **Adresu XML exportu objednávek** a **Adresu XML exportu produktů**. Zde vložte **odkazy** z vaší Shoptet administrace.
+
+- Jak správně nastavit **XML export objednávek** naleznete [zde](/docs/application/shoptet#vytvoření-exportu-objednávek).
+- Jak správně nastavit **XML export produktů** naleznete [zde](/docs/application/shoptet#vytvoření-exportu-produktů).
+
+
+V naší aplikaci je také možnost manuální synchronizace. Tuto možnost naleznete v sekci **Manuální Synchronizace**. Zde můžete **ručně spustit** synchronizaci objednávek z vašeho Shoptetu do Balíkuj za vybraný interval.
+
+![Shoptet - Aktivace](/img/application/shoptet/shoptet-activate.png)
+
+V sekci **Nastavení XML exportů** je také tlačítko pro **Aktualizace objednávek na eshopu** (více [zde](/docs/application/shoptet#povolení-aktualizace-objednávek)) . Po zaškrtnutí tohoto tlačítka se zobrazí pole pro zadání údajů správce e-shopu. Pro tuto akci je potřeba **vytvořit nového správce** e-shopu. 
+Zde zadejte následující údaje: 
+
+- **Email** - Zadejte emailovou adresu nového správce obchodu
+- **Heslo** - Zadejte heslo nového správce obchodu
+
+Jak správně vytvořit nového **správce obchodu** naleznete [zde](/docs/application/shoptet#vytvoření-správce-obchodu).
+
+![Shoptet - Aktivace](/img/application/shoptet/allow-updating.png)
+
 
 Kliknutím na **Aktivovat aplikaci** aktivujete aplikaci. Pro zobrazení, zda je aplikace aktivní můžete jít opět do přehledu aplikací přes menu **Nastavení** -> **Aplikace**. Vámi **nově vytvořená** aplikace by se zde měla nacházet.
 
@@ -263,3 +308,34 @@ https://www.myshopteteshop.com/admin/doprava-detail/?id=17
 Všimněte si **čísla** za **id=**. Toto **číslo** či **posloupnost znaků** je **unikátní identifikátor** této dopravy, který budete potřebovat pro vytvoření **vlastního mapování v Balíkuj**. Pro lepší pochopení si můžete prohlédnout následující obrázek:
 
 ![Shoptet - Aktivace](/img/application/shoptet/shoptet-carrier-url.png)
+
+
+## Synchronizace a aktualizace objednávek
+
+Balíkuj umožňuje **automatickou synchronizaci objednávek** z vašeho **Shoptet** e-shopu . Tento proces zajišťuje, že veškeré objednávky, které přicházejí z vašeho e-shopu, jsou **automaticky aktualizovány** v Balíkuj v určitých časových intervalech.
+
+
+### Povolení aktualizace objednávek
+
+Aktualizace objednávek slouží pro synchronizaci mezi administrací Balíkuj a vaším shoptet e-shopem. V sekci **Nastavení XML exportů** naleznete možnost **Povolit aktualizaci objednávek**. Tuto možnost **zaškrtněte**. Následně vám budou zobrazeny dvě pole **Přihlašovací email** a **Heslo**. Zde vyplňte přihlašovací údaje pro nového **správce obchodu**. 
+Jak tohoto správce obchodu vytvořit naleznete v sekci níže.
+
+![Shoptet - Aktivace](/img/application/shoptet/allow-updating.png)
+
+### Vytvoření správce obchodu
+V administraci Shoptetu otevřete sekci **Nastavení -> Administrace -> Správci obchodu**. Bude Vám zobrazena následující stránka:
+
+![Shoptet - Aktivace](/img/application/shoptet/shoptet-admins.png)
+
+Kliknutím na tlačítko **Přidat** budete přesměrování na formulář pro vytvoření nového správce obchodu. Zde vyplňte následující údaje:
+
+- **Jméno a příjmení** - Zadejte jméno a příjmení nového správce obchodu
+- **Email** - Zadejte emailovou adresu nového správce obchodu
+- **Nové heslo** - Zadejte nové heslo pro nového správce obchodu
+- **Potvrzení hesla** - Zopakujte nové heslo pro potvrzení
+- **Současné heslo pro potvrzení** - Zadejte současné heslo pro potvrzení změn
+
+Níže na této stránce nalezněte sekci **Práva uživatele**. Zde v kategorii **Objednávky** zaškrtněte možnost **Přehled** (viz obrázek níže). Kliknutím na tlačítko **Uložit** vytvoříte nového správce obchodu.
+
+![Shoptet - Aktivace](/img/application/shoptet/new-admin.png)
+
