@@ -28,7 +28,7 @@ Funguje to tedy tak, že Balíkuj si stahuje vždy nové nebo změněné objedn�
 
 ### Vytvoření exportu objednávek
 Pro vytvoření mapování objednávek ze Shoptetu do Balíkuj, je třeba výše zmiňovaný XML feed správně vytvořit a nastavit.
-V administraci Shoptetu otevřete v bočním menu sekci **Nastavení -> Export objednávek**. Zde najdete možnost **Vytvořit vlastní export**.
+V administraci Shoptetu otevřete v bočním menu sekci **Objednávky -> Export**. Zde najdete možnost **Vytvořit vlastní export**.
 
 ![Shoptet - Aktivace](/img/application/shoptet/template-create.png)
 
@@ -156,7 +156,7 @@ Následně vám bude zobrazena další pole. Do těchto polí není potřeba zad
 :::
 
 ### Vytvoření exportu produktů
-V administraci Shoptetu otevřete sekci **Nastavení -> Produkty**. Následně Vám bude zobrazena úvodní strana pro export produktů. V sekci **Typ** zaškrtněte možnost **systémový: Kompletní export - XML**.
+V administraci Shoptetu otevřete sekci **Produkty -> Export**. Následně Vám bude zobrazena úvodní strana pro export produktů. V sekci **Typ** zaškrtněte možnost **systémový: Kompletní export - XML**.
 
 ![Shoptet - Aktivace](/img/application/shoptet/product-export.png)
 
