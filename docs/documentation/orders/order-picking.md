@@ -50,8 +50,8 @@ V detailu pickingu funguje automaticky skenování položek pomocí čárového 
 ### Stavy položek v pickingu
 Položky v pickingu mohou mít několik stavů:
 - **Částečně pickováno** - položka byla naskenována, ale ne všechny kusy - zobrazuje se oranžově
-- **Pickingováno** - položka byla naskenována všechny kusy - zobrazuje se zeleně
-- **Nepickingováno** - položka ještě nebyla naskenována - zobrazuje se šedě
+- **Pickováno** - položka byla naskenována všechny kusy - zobrazuje se zeleně
+- **Nepickováno** - položka ještě nebyla naskenována - zobrazuje se šedě
 
 
 ![Stavy objednávek pro picking](/img/order/picking/order-picking-statuses.png)

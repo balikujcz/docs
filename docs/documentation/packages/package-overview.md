@@ -19,7 +19,7 @@ V sekci přehledu zásilek se na hlavičce stránky nad filtrovacím rozhraním 
 
 
 ### Filtrování zásilek
-V hlavičce stránky naleznete sekci, která slouží k filtrování přehledu Vašich zásilek. Toto rozhraní umožňuje filtrovat podle rozmanitého spektra kritérií:
+V hlavičce stránky naleznete sekci, která slouží k filtrování přehledu Vašich zásilek. Toto rozhraní umožňuje filtrovat podle rozmanitého spektra kritérií a **vytváření vlastních filtrů**:
 
 ![Možnosti filtrování zásilek](/img/package/overview/filters.png)
 	- **Hledaný text** - pole pro zadání textu, který se může vyskytovat v názvu zásilky, jejím popisu, čísle zásilky nebo také referenčním čísle.
@@ -44,6 +44,27 @@ V hlavičce stránky naleznete sekci, která slouží k filtrování přehledu V
 	 - **Filtrování podle stavu** - zde je možné filtrovat zásilky podle základních stavů, např. **Neodesláno**, **Doručeno**, **Nedoručeno**.
 
 ---
+
+### Vlastní filtry
+
+**Balíkuj** nyní podporuje tvorbu **vlastních filtrů**, které můžete vytvářet a ukládat pro pozdější použití. Vytvoření vlastního filtru je velmi jednoduché a intuitivní. Po vytvoření filtru se Vám bude zobrazovat v seznamu filtrů a můžete jej kdykoliv smazat. Pro vytvoření vlastního filtru postupujte následovně: 
+
+**1. Zvolte si filtrovací parametry** - jako první si navolte všechny parametry podle kterých bude filtr uložen.
+
+![Vytvoření vlastního filtru](/img/package/overview/custom-filter-choose.png)
+
+**2. Uložit filtr** - po vybrání všech parametrů klikněte na tlačítko "Uložit filtr" a zadejte název filtru. Bude vám zobrazena karta pro vyplnění údajů o filtru. **Balíkuj** také podporuje možnost zobraování filtrů jako tlačítko v hlavičce stránky. Tento přístup velmi urychluje hledání specifických zásilek či objednávek.
+
+![Vytvoření vlastního filtru](/img/package/overview/filter-create.png)
+
+Po uložení nově nadefinovaného filtru se Vám bude zobrazovat v seznamu filtrů. Pro jeho použití stačí kliknout na název filtru a zobrazí se Vám pouze zásilky, které splňují zadané parametry.
+
+![Vytvoření vlastního filtru](/img/package/overview/custom-filter-added.png)
+
+
+Pro **smazání filtru** najeďte myší na tlačítko **Uložené filtry** a klikněte na ikonu **křížku** vedle názvu filtru, který chcete smazat.
+
+![Vytvoření vlastního filtru](/img/package/overview/custom-filter-delete.png)
 
 ### Akce se zásilkami
 Tato sekce slouží pro seznámení se s akcemi zásilek, jako je tisk, export dat, aktualizaci zobrazovaných zásilek a mnoho dalšího.
@@ -94,7 +115,7 @@ V přehledu zásilek má každá zásilka svou kartu s obecným a jednoduchým p
 ### Duplikace zásilky
 Kliknutím na tlačítko **Akce** u jednotlivých zásilek lze otevřít menu a zvolit možnost duplikovat. Následně Vám bude zobrazena stránka pro vytvoření zásilky s předvyplněnými údaji.
 
----
+
 
 ### Patička přehledu
 Tato spodní část stránky slouží k listování mezi stranami se zásilkami. Zobrazuje se číslo strany s počtem zásilek na stránce. Disponuje také tlačítky pro postupování mezi stránkami.
