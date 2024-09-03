@@ -56,14 +56,16 @@ Položky v pickingu mohou mít několik stavů:
 
 ![Stavy objednávek pro picking](/img/order/picking/order-picking-statuses.png)
 
+![Decision tree](/img/order/picking/order-picking-decision-tree.png)
+
 ### Dokončení pickingu
-Umožňuje dokončit picking objednávky a přepnout objednávku do zvoleného stavu. Současně s tím je možné na zvolené tiskárně rovnou vytisknout štítek pro zásilku.
+Umožňuje dokončit picking objednávky a přepnout objednávku do zvoleného stavu. Současně s tím je možné na zvolené tiskárně rovnou vytisknout štítek pro zásilku. Pokud jsou vypickovány všechny položky, stav pickingu u objednávky se nastaví na **Picking dokončen**. V opačném případě, kdy jsou vypickovány pouze některé položky, po dokončení bude stav u objednávky nastaven na **Rozpracovaný picking**.
 
 ### Uložení pickingu
-Rozpracovaný picking objednávky můžete také uložit najetím dropdown u tlačítka **Dokončit objednávku** a vybrat **Uložit picking**. Tím se naskenované množství u jednotlivých položek uloží a příště můžete pokračovat.
+Rozpracovaný picking objednávky můžete také uložit najetím dropdown u tlačítka **Dokončit objednávku** a vybrat **Uložit picking**. Tím se naskenované množství u jednotlivých položek uloží a příště můžete pokračovat. Stav pickingu u objednávky se nastaví na **Rozpracovaný picking**.
 
 ### Zrušení pickingu
-Picking objednávky můžete zrušit najetím dropdown u tlačítka **Dokončit objednávku** a vybrat **Zrušit picking**. Tím se objednávka vrátí do původního stavu a můžete začít znovu.
+Picking objednávky můžete zrušit najetím dropdown u tlačítka **Dokončit objednávku** a vybrat **Zrušit picking**. Tím se nastaví všechny položky pickingu na stav **Nepickováno**.
 
 ![Akce s pickingem](/img/order/picking/order-picking-dropdown.png)
 
