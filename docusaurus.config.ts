@@ -1,9 +1,11 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
 const config: Config = {
-    title: 'Balíkuj.cz',
+    title: 'Balíkuj',
     tagline: 'Expedujte rychle, jednoduše a bezchybně',
     favicon: 'img/favicon.ico',
     staticDirectories: ['static'],
@@ -40,6 +42,8 @@ const config: Config = {
                     // Remove this to remove the "edit this page" links.
                     editUrl:
                         'https://github.com/balikujcz/docs/blob/main/',
+                    remarkPlugins: [remarkMath],
+                    rehypePlugins: [rehypeKatex],
                 },
                 //blog: {
                 //    showReadingTime: true,
@@ -58,13 +62,13 @@ const config: Config = {
     themeConfig: {
         announcementBar: {
             id: 'newfeatures',
-            content: 'Máte nápad na novou funkci, něco Vám v Balíkuj nefunguje nebo chybí? <a target="_blank" rel="noopener noreferrer" href="https://www.balikuj.cz">Napište nám!</a>',
+            content: 'Máte nápad na novou funkci, něco Vám v Balíkuj nefunguje nebo chybí? <a target="_blank" rel="noopener noreferrer" href="https://balikuj.cz">Napište nám!</a>',
             backgroundColor: '#303846',
             textColor: '#fff',
             isCloseable: false,
         },
         // Replace with your project's social card
-        image: 'img/docusaurus-social-card.jpg',
+        image: 'img/balikuj.png',
         navbar: {
             logo: {
                 alt: 'Balíkuj Dokumentace',
@@ -95,17 +99,12 @@ const config: Config = {
                     position: 'left',
                     label: 'API',
                 },
-                //{
-                //    type: 'docSidebar',
-                //    sidebarId: 'tutorialSidebar',
-                //    position: 'left',
-                //    label: 'Tutorial',
-                //},
-                //{
-                //    to: '/blog',
-                //    label: 'Blog',
-                //    position: 'left'
-                //},
+                {
+                    type: 'docSidebar',
+                    sidebarId: 'videoSidebar',
+                    position: 'left',
+                    label: 'Videa',
+                },
                 {
                     href: 'https://github.com/balikujcz/docs',
                     label: 'GitHub',
@@ -135,6 +134,10 @@ const config: Config = {
                             label: 'API',
                             to: '/docs/api/intro',
                         },
+                        {
+                            label: 'Videa',
+                            to: '/docs/video/intro',
+                        },
                     ],
                 },
                 {
@@ -155,7 +158,7 @@ const config: Config = {
                     ],
                 },
                 {
-                    title: 'More',
+                    title: 'Ostatní',
                     items: [
                         //{
                         //    label: 'Blog',

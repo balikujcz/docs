@@ -24,5 +24,5 @@ Pro přidání nového stavu klikněte na tlačítko **Přidat stav** v přehled
 Kliknutím na tlačítko **Přidat stav** se nový stav uloží a zobrazí se v přehledu všech stavů.
 
 :::tip
-Tyto stavy mohou být **namapovány** na stavy z Vašeho **e-shopu**.
+U většiny e-shopových platforem, jako je například Upgates, probíhá mapování stavů objednávek automaticky. Pokud přijde objednávka, která má stav, jenž neexistuje v Balíkuj, tak si Balíkuju tento nový stav vytvoří automaticky.
 :::

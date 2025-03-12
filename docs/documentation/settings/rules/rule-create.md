@@ -23,6 +23,7 @@ Mezi základní nastavení pravidla patří:
 - **Je aktivní** - určuje, zda bude pravidlo od vytvoření ihned aktivní.
 - **Datum platnosti od / do** - určuje, v jakém časovém období bude pravidlo spuštěno.
 - **Jednorázové spuštění pravidla** - vyberte, pokud chcete spustit pravidlo pouze jednou.
+- **Jednorázové spuštění pro objednávku** - vyberte, pokud chcete spustit pravidlo pouze jednou pro konkrétní objednávku.
 - **Odeslat systémový email na e-shopu** - odešle emaily při změně stavu objednávky pro zvolenou e-shopovou platformu.
 - **Spouštět pouze ve dny** - pravidlo bude spouštěno pouze ve vybrané dny (**Pondělí - Neděle**).
 - **Spouštět pouze v čas** - na výběr jsou čtyři šestihodinové časové intervaly, ve kterých chcete pravidlo spustit. 
@@ -67,8 +68,41 @@ Jak vytvořit nový stav se dozvíte v [dokumentaci](/docs/documentation/setting
 - **HTTP Post** - odešle HTTP POST request na zvolenou adresu.
         - automaticky bude zobrazeno pole pro zadání URL adresy.
 
+- **Objednávka: Označit zaplacená** - označí objednávku jako zaplacenou či nezaplacenou.
+		- automaticky bude zobrazeno pole pro zda je objednávka zaplacena ANO/NE.
+
+- **Objednávka: Nastavit platební metodu** - nastaví platební metodu objednávky.
+		- automaticky bude zobrazeno pole pro výběr platební metody.
+
+- **Objednávka: Nastavit fakturační adresu** - nastaví fakturační adresu objednávky.
+		- automaticky budou zobrazena pole pro zadání fakturačních údajů.
+
+- **Objednávka: Nastavit dodací adresu** - nastaví dodací adresu objednávky.
+		- automaticky budou zobrazena pole pro zadání dodacích údajů.
+
+- **Objednávka: Nastavit dopravce a službu** - nastaví dopravce a službu objednávky.
+		- automaticky budou zobrazena pole pro výběr dopravce a služby.
+		- možnost výběru všech aktivních dopravců a služeb, které máte v systému nakonfigurované.
+
+- **Objednávka: Poznámka od zákazníka** - přidá poznámku od zákazníka k objednávce.
+		- automaticky bude zobrazeno pole pro zadání poznámky.
+
+- **Objednávka: Interní poznámka** - přidá interní poznámku k objednávce.
+		- automaticky bude zobrazeno pole pro zadání interní poznámky.
+
+- **Objednávka: Nastavit váhu** - nastaví váhu objednávky.
+		- automaticky bude zobrazeno pole pro zadání nové váhy.
 
 
 :::tip
 Nezapomeňte, že můžete přidávat **více podmínek a akcí** do jednoho pravidla! :grinning:
 :::
+
+
+## Speciální vlastnosti pravidel
+
+V této sekci naleznete podrobnější popis určitých funkcionalit a vlastností pravidel, které mohou být pro vás užitečné.
+
+### Jednorázové spuštění pro objednávku
+
+Vyberte-li možnost **Jednorázové spuštění pro objednávku**, pravidlo bude spuštěno pouze jednou pro konkrétní objednávku. Tato funkce může také složit jako pojistka před opakovaným spouštěním pravidla na stejnou objednávku.
