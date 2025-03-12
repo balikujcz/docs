@@ -20,7 +20,7 @@ import CarrierHelpInfo from '@site/docs/carrier/_help-info.md';
 
 
 ## Podporované služby
-- ✅️ **CZ Výdejní místa**
+- ✅️ **CZ výdejní místa**
 - ✅️ **SK, PL, HU, RO výdejní místa**
 - ✅️ **Home Delivery (všichni dopravci a výdejní místa dopravců)**
 
