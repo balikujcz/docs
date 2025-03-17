@@ -18,7 +18,7 @@ Po kliknutí na tlačítko **Přidat zásilku** se zobrazí okno s poli pro výb
 	Pozor, zobrazují se pouze dopravci, které máte nastavené ve Vaší aplikaci jako aktivní. Aktivovat nového dopravce si můžete v sekci **Nastavení** -> **Dopravci**.
 :::
 
-![Navigace v přehledu zásilek](/img/package/overview/package-create.png)
+![Výběr dopravce a služby](/img/package/overview/package-create.png)
 
 ### Vyplnění údajů
 Po kliknutí na tlačítko **Pokračovat** budete přesměrováni na stránku sloužící pro vyplnění údajů. V hlavičce této stránky naleznete ikonu dopravce a služby, kterou jste zvolili.

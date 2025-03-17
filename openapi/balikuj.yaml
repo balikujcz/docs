@@ -4517,7 +4517,7 @@ components:
           nullable: true
         exchangeOrder:
           type: boolean
-          description: 'Informace, zda se přidá služba Výměnná zásilka (swap). Pokud je nastaveno na true, bude vytvořen stejný počet výměnných zásilek jako je vytvořen počet balíků v zásilce (swapCount = piecesCount). Jedná o omezení DPD API.'
+          description: 'Informace, zda se přidá služba Výměnná zásilka (swap). Pokud je nastaveno na true, bude vytvořen stejný počet výměnných zásilek, jako je vytvořen počet balíků v zásilce (swapCount = piecesCount). Jedná o omezení DPD API.'
           nullable: true
         smsNotification:
           type: boolean

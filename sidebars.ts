@@ -56,6 +56,20 @@ const sidebars: SidebarsConfig = {
         },
         {
             type: 'category',
+            label: 'Faktury',
+            items: [
+                'documentation/invoices/invoice-activate',
+                'documentation/invoices/invoice-overview',
+                'documentation/invoices/invoice-detail',
+                'documentation/invoices/invoice-payment',
+                'documentation/invoices/invoice-company',
+                'documentation/invoices/invoice-bank-account',
+                'documentation/invoices/invoice-number-series',
+                'documentation/invoices/invoice-export',
+            ],
+        },
+        {
+            type: 'category',
             label: 'Nastavení',
             items: [
                 {
