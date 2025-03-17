@@ -60,6 +60,7 @@ const sidebars: SidebarsConfig = {
             items: [
                 'documentation/invoices/invoice-activate',
                 'documentation/invoices/invoice-overview',
+                'documentation/invoices/invoice-create',
                 'documentation/invoices/invoice-detail',
                 'documentation/invoices/invoice-payment',
                 'documentation/invoices/invoice-company',

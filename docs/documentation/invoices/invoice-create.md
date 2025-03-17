@@ -17,6 +17,7 @@ Po kliknutí na tlačítko **Pokračovat** budete přesměrováni na stránku sl
 Zde lze nastavit všechny potřebné informace, které budou uvedeny v hlavičce faktury.
 
 ![Fakturační údaje](/img/invoice/create/create-basic.png)
+
 Pro usnadnění jsou standardně vyplněny údaje dle Vašeho nastavení **Fakturace**.
 Další hodnoty můžete upravit podle potřeby.
 Pokud nastavíte jinou měnu, než je měna Vašeho fakturačního subjektu, bude pro převod cen nabídnut aktuální kurz z **ČNB**.

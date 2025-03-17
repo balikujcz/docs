@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Na této stránce naleznete přehled fakturačních subjektů s možností vytvoření nového subjektu. Vytváření fakturačních subjektů umožní **vytváření nových faktur** pro všechny Vaše fakturační subjekty.
 
-![Zobrazení adres](/img/invoice/company/overview.png)
+![Zobrazení subjektů](/img/invoice/company/overview.png)
 
 ## Přidání fakturačního subjektu
 Kliknutím na tlačítko **Přidat fakturační subjekt** Vám bude zobrazen formulář pro vyplnění údajů k danému subjektu. Po vyplnění údajů a kliknutí na tlačítko **Přidat fakturační subjekt** bude nový subjekt uložen a budete jej moci využívat ve svých fakturách.

@@ -12,3 +12,6 @@ Na konci každého řádku je také tlačítko pro stažení exportu.
 
 Kliknutím na tlačítko **Vytvořit nový export** zobrazíte formulář pro export dat faktur. Zde je nutno zvolit požadovaný formát exportu - lze vybrat např. PDF, ZIP, ISDOC, POHODA aj.
 Také doporučujeme zvolit období vybraných faktur např. pomocí našeho rychlého filtru. Po vyplnění údajů a kliknutí na tlačítko **Exportovat faktury** provedete export dat faktur.
+
+
+![Filtry pro export](/img/invoice/export/filters.png)
