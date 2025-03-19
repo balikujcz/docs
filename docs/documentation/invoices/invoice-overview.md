@@ -5,7 +5,7 @@ sidebar_position: 1
 # Přehled faktur
 Tento přehled je navržen s cílem usnadnit správu Vašich faktur.
 S Balíkuj můžete snadno sledovat všechny Vaše faktury na jednom místě, a to včetně možnosti filtrovat je podle různých kritérií,
-jako jsou datum vystavení faktury, stav úhrady, typ faktury, platební metoda další. Tato dokumentace Vám poskytne podrobné informace o funkcích, které přehled faktur aplikace Balíkuj nabízí, a jak je efektivně využívat.
+jako jsou datum vystavení faktury, stav úhrady, typ faktury, platební metoda a další. Tato dokumentace Vám poskytne podrobné informace o funkcích, které přehled faktur aplikace Balíkuj nabízí, a jak je efektivně využívat.
 ## Obecný přehled faktur
 
 V sekci přehledu faktur se na hlavičce stránky nad filtrovacím rozhraním zobrazí obecný přehled faktur, tento přehled slouží k velmi rychlému posouzení stavu všech faktur. Obsahuje informace: 
@@ -22,7 +22,7 @@ V sekci přehledu faktur se na hlavičce stránky nad filtrovacím rozhraním zo
 V hlavičce stránky naleznete sekci, která slouží k filtrování přehledu Vašich faktur. Toto rozhraní umožňuje filtrovat podle rozmanitého spektra kritérií:
 
 ![Možnosti filtrování faktur](/img/invoice/overview/filters.png)
-	- **Hledaný text** - pole pro zadání textu, který se může vyskytovat v čísle faktury apod.
+	- **Hledaný text** - pole pro zadání textu, který se může vyskytovat v čísle faktury apod. <!--kde jeste-->
 	- **Fakturační společnost** - zde lze vybrat subjekt, na který byla faktura vystavena.	
 	- **Vystaveno od / do** - možnost výběru intervalu, pro které chcete zobrazit hledané faktury.
 :::tip
@@ -31,15 +31,15 @@ V hlavičce stránky naleznete sekci, která slouží k filtrování přehledu V
 	- **Částka od / do** - možnost výběru částky, podle které chcete filtrovat hledané faktury.
 	- **Typ faktury** - zde lze vybrat typy faktur, jakých mohou hledané faktury nabývat. Mezi nejpoužívanější patří např. **Faktura**, **Proforma**.<!--dobropis-->
 	- **Stav faktury** - filtrování podle stavu v životním cyklu faktury. Mezi nejpoužívanější patří např. **Uhrazená**, **Zaplacená**, **Stornovaná**.
-	- **Platební metoda** -  zde lze vybrat platební metody, které byla zvolena u faktur.
+	- **Platební metoda** -  zde lze vybrat platební metody, které byly zvoleny u faktur.
 	- **Režim OSS** - zde lze filtrovat faktury podle režimu OSS.
 ---
 
-### Akce se fakturami
-Tato sekce slouží pro seznámení se s akcemi faktur, jako je tisk a export dat zobrazovaných faktur.
+### Export faktur
+Tato sekce slouží pro seznámení se s akcemi faktur, jako je tisk a export dat zobrazených faktur.
 
 
-![Akce se fakturami](/img/invoice/overview/filter-actions.png)
+![Export faktur](/img/invoice/overview/filter-actions.png)
 
 
 	- **Vybrat všechny faktury** - v levé části tohoto menu se nachází tlačítko. Kliknutím na něj vyberete všechny faktury, tato akce se projeví graficky u každé faktury zobrazením modrého čtverce s fajfkou.

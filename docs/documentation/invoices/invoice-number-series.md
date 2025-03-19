@@ -6,17 +6,16 @@ sidebar_position: 1
 Nastavení číselných řad je klíčové pro správné vytváření Vašich faktur. V této sekci se dozvíte, jak efektivně nastavit číselné řady a jak s nimi pracovat.
 Nastavit lze **číselné řady** zvlášť pro každý typ **dokladu** (faktura, zálohová faktura, doklady k přijatým platbám). To vše Vám usnadní práci s Vašimi fakturami a zvýší přehlednost v evidenci.
 
-Pro každý typ faktury se v přehledu zobrazí základní náhled nastavení. 
-
 Tyto **číselné řady** jsme pro Vás vytvořili automaticky již při prvním nastavení **fakturace** v našem průvodci. Zde toto nastavení můžete je kdykoliv upravit podle svých potřeb.
 
+Pro každý typ faktury se v přehledu zobrazí základní náhled nastavení. 
 Obsahuje informace: 
 
 ![Rychlý přehled číselných řad](/img/invoice/number-series/overview.png)
 
 	- **Název** - název číselné řady.
 	- **Formát** - formát číselné řady, např. **FA#yyyy##dddddd#**.
-	- **Aktuálníi číslo** - aktuální číslo číselné řady. které bude využito pro vytvoření nové faktury.
+	- **Aktuální číslo** - aktuální číslo číselné řady, které bude využito pro vytvoření nové faktury.
 	- **Výchozí řada** - označuje, zda je daná číselná řada nastavena jako výchozí.
 
 :::info
@@ -32,7 +31,7 @@ Obsahuje informace:
 
 
 ## Editace číselné řady
-Pro každý typ faktury můžete upravit číselnou řadu kliknutím na **detail** dané řady. Zde Vám budou zobrazena pole s informacemi. Kliknutím na tlačítko **Uložit změny** budete moci upravit informace o dané číselné řadě.
+Pro každý typ faktury můžete upravit číselnou řadu kliknutím na **detail** dané řady. Zde Vám budou zobrazena pole s informacemi. Kliknutím na tlačítko **Uložit změny** budete moci uložit informace o dané číselné řadě.
 
 ## Přidání číselné řady
 Kliknutím na tlačítko **Přidat číselnou řadu** Vám bude zobrazen formulář. Po vyplnění údajů a kliknutí na tlačítko **Přidat číselnou řadu** bude nová řada uložena a budete ji moci využívat ve svých fakturách.

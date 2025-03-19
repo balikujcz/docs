@@ -4,8 +4,10 @@ sidebar_position: 1
 
 # Aktivace fakturace
 Nastavení fakturace je jednou z klíčových funkcí aplikace **Balíkuj**. Tato funkce umožňuje vytvářet faktury pro Vaše objednávky a zasílat je zákazníkům přímo z aplikace. V této dokumentaci se dozvíte, jak aktivovat fakturaci a jak spravovat faktury v aplikaci **Balíkuj**.
+
 Vytvořené faktury lze exportovat do PDF apod.
 Také můžete provádět exporty do různých formátů pro import do účetních systémů, jako je POHODA a další.
+
 Pro aktivaci fakturace slouží náš jednoduchý průvodce, který Vás provede celým procesem. Provede Vás nastavením nezbytných fakturačních údajů.
 Nastavení a další volby poté lze upravit v konkrétní sekci **Nastavení** -> **Fakturace**.
 
@@ -38,7 +40,7 @@ Zde je nutno zadat platební údaje, které budou uvedeny na faktuře. Tato sekc
 
 ## Číselné řady
 Z důvodů usnadnění Vám průvodce předvytvoří nastavení číselné řady pro faktury, faktury a daňové doklady k přijatým platbám. 
-Další nastavení a formát číselných řad si můžete po dokončení průvodce upravit podle svých potřeb v sekci Číselné řady.
+Další nastavení a formát číselných řad si můžete po dokončení průvodce upravit podle svých potřeb v sekci **Fakturace** -> **Číselné řady**.
 Tímto dokončíte základní nastavení fakturace a můžete začít vytvářet faktury. 
 
 :::info

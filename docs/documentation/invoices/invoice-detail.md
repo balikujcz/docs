@@ -9,6 +9,7 @@ Na této stránce naleznete veškeré informace o faktuře, které jsou dostupn�
 ![Vytvoření faktury](/img/invoice/detail/navigation.png)
 
 V menu nahoře lze provádět tyto akce:
+- **Upravit fakturu** - zobrazí formulář pro úpravu faktury.
 - **Export do PDF** - export faktury do PDF souboru.
 - **Poslat emailem** - zobrazí formulář pro odeslání faktury emailem.
 - **Přidat platbu** - přidat platbu k faktuře. Zde lze zadat částku, datum a způsob platby. Také lze označit fakturu jako zaplacenou.

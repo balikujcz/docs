@@ -18,7 +18,7 @@ Pokud u Vaší banky tato funkce není dostupná, prosím kontaktujte nás - rá
 :::
 
 ## Editace bankovního účtu
-Kliknutím na **detail** daného účtu Vám budou zobrazena pole s informacemi. Kliknutím na tlačítko **Uložit změny** budete moci upravit informace o daném bankovním účtu.
+Kliknutím na **detail** daného účtu Vám budou zobrazena pole s informacemi. Kliknutím na tlačítko **Uložit změny** budete moci uložit informace o daném bankovním účtu.
 
 ## Odstranění bankovního účtu
 Kliknutím na tlačítko **Smazat** bude bankovní účet odstraněn.

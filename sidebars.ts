@@ -56,7 +56,7 @@ const sidebars: SidebarsConfig = {
         },
         {
             type: 'category',
-            label: 'Faktury',
+            label: 'Fakturace',
             items: [
                 'documentation/invoices/invoice-activate',
                 'documentation/invoices/invoice-overview',
