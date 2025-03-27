@@ -53,6 +53,7 @@ const sidebars: SidebarsConfig = {
                 'documentation/orders/order-create-printing',
                 'documentation/orders/order-picking',
             ],
+             
         },
         {
             type: 'category',
@@ -67,6 +68,13 @@ const sidebars: SidebarsConfig = {
                 'documentation/invoices/invoice-bank-account',
                 'documentation/invoices/invoice-number-series',
                 'documentation/invoices/invoice-export',
+                //{
+                //    type: 'category',
+                //    label: 'Jak na to..',
+                //    items: [
+                //        'documentation/invoices/invoice-activate',
+                //    ],
+                //}
             ],
         },
         {
