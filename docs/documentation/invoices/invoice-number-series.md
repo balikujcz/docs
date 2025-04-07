@@ -21,11 +21,11 @@ Obsahuje informace:
 :::info
 	Příklad: FA#yyyy##dddddd# - bude nahrazeno hodnotami například: FA2025000001
 	- **a-z, A-Z, 0-9, -, .** - Povolené znaky ve formátu dokladu
-	- **#YY#** - Rok ve formátu YY, bude nahrazeno hodnotou například: 25
-	- **#YYYY#** - Rok ve formátu YYYY, bude nahrazeno hodnotou například: 2025
-	- **#M#** - Měsíc ve formátu M, bude nahrazeno hodnotou například: 5
-	- **#MM#** - Měsíc ve formátu MM, bude nahrazeno hodnotou například: 05
-	- **#D# - #DDDDDD#** - Číslo dokladu ve formátu 1 - 000001, bude nahrazeno hodnotou například: 000025
+	- **#yy#** - Rok ve formátu YY, bude nahrazeno hodnotou například: 25
+	- **#yyyy#** - Rok ve formátu YYYY, bude nahrazeno hodnotou například: 2025
+	- **#m#** - Měsíc ve formátu M, bude nahrazeno hodnotou například: 5
+	- **#mm#** - Měsíc ve formátu MM, bude nahrazeno hodnotou například: 05
+	- **#d# - #dddddd#** - Číslo dokladu ve formátu 1 - 000001, bude nahrazeno hodnotou například: 000025
 	- **Variabilní symbol** - Jako variabilní symbol bude použito posledních 10 čísel
 :::
 
