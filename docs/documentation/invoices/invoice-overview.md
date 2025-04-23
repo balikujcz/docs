@@ -8,7 +8,7 @@ S Balíkuj můžete snadno sledovat všechny Vaše faktury na jednom místě, a 
 jako jsou datum vystavení faktury, stav úhrady, typ faktury, platební metoda a další. Tato dokumentace Vám poskytne podrobné informace o funkcích, které přehled faktur aplikace Balíkuj nabízí, a jak je efektivně využívat.
 ## Obecný přehled faktur
 
-V sekci přehledu faktur se na hlavičce stránky nad filtrovacím rozhraním zobrazí obecný přehled faktur, tento přehled slouží k velmi rychlému posouzení stavu všech faktur. Obsahuje informace: 
+V sekci přehledu faktur se v hlavičce stránky nad filtrovacím rozhraním zobrazí obecný přehled faktur. Tento přehled slouží k velmi rychlému posouzení stavu všech faktur. Obsahuje informace: 
 
 ![Rychlý přehled faktur](/img/invoice/overview/overview.png)
 

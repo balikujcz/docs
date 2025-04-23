@@ -11,30 +11,45 @@ S Balíkuj můžete snadno spravovat všechny Vaše objednávky na jednom míst�
 Pozor, zobrazují se pouze aplikace, které máte nastavené ve Vaší aplikaci jako aktivní. Aktivovat novou aplikaci můžete v sekci **Nastavení** -> **Aplikace**.
 :::
 
+## Nastavení zobrazení
+Symbol ozubeného kolečka v pravém horním rohu slouží k nastavení zobrazení přehledu objednávek. Po kliknutí na něj se zobrazí menu, ve kterém si můžete vybrat, zda chcete mít zobrazen **obecný přehled objednávek** a **položky jednotlivých objednávek**.
+
+## Obecný přehled objednávek
+
+V sekci přehledu objednávek se v hlavičce stránky nad filtrovacím rozhraním zobrazí obecný přehled objednávek. Tento přehled slouží k velmi rychlému posouzení stavu všech objednávek. Obsahuje informace: 
+
+![Rychlý přehled objednávek](/img/order/overview/overview.png)
+
+	- **Dnešní objednávky** - počet dnešních objednávek v systému.
+	- **Celkem objednávek** - celkový počet Vašich objednávek v systému.
+	- **Nekompletované** - počet objednávek evidovaných jako nekompletované.
+	- **Nazaplacené** - počet objednávek, k nimž nebyla evidována platba.
+
 
 ### Filtrování objednávek
-V horní části rozhraní se nachází sekce, která slouží k filtrování přehledu Vašich objednávek. Toto rozhraní umožňuje filtrovat podle řady kritérií:
+V horní části rozhraní se nachází tlačítko, která slouží k filtrování přehledu Vašich objednávek. Toto rozhraní umožňuje filtrovat podle řady kritérií:
 
 ![Možnosti filtrování objednávek](/img/order/overview/filters.png)
 	- **Hledaný text** - pole pro zadání textu, který se může nacházet v údajích o příjemci objednávky, čísle objednávky či jiných údajích.
+	- **Stav objednávky** - po rozkliknutí se zobrazí dropdown menu, kde lze vybrat jeden z mnoha filtrů podle stavu objednávky. Mezi nejpoužívanější patří např. **přijatá**, **storno**, **odesláno (na cestě)**.
+	- **Stav kompletace** - zde lze vybrat jeden nebo více stavů kompletace objednávky. Mezi nejpoužívanější patří např. **kompletováno**, **nekompletováno**.
+	
+	- **Vytvořeno od / do** - možnost výběru intervalu, ve kterém chcete zobrazit hledané objednávky. Pro usnadnění slouží náš rychlý filtr pro automatické vyplnění rozmezí např. pro **tento měsíc** apod.
+
+:::tip
+	Pokud vyberete pouze **datum od**, zobrazí se všechny objednávky od daného data až k aktuálnímu dni.
+:::
+	 
+<!-- - **Seřadit podle** - možnost výběru, zda chcete řadit od **nejnovějších** či **nejstarších** objednávek. Dále lze řadit podle **čísla objednávky** a **doby poslední změny**.
+	 - **Filtrování podle stavu** - zde je možné filtrovat objednávky podle základních stavů, např. **Nevyřízená**, **Vyřizuje se**, **Stornována**.-->
 	- **Dopravce** - po rozkliknutí se zobrazí dropdown menu, ve kterém můžete vybrat jednoho, více a nebo všechny dopravce, podle kterých chcete filtrovat.
 
 :::warning
 	Pozor, zobrazují se pouze dopravci, které máte nastavené ve Vaší aplikaci jako aktivní. Aktivovat nového dopravce můžete v sekci **Nastavení** -> **Dopravci**.
 :::
 
-	- **Stav objednávky** - po rozkliknutí se zobrazí dropdown menu, kde lze vybrat jeden z mnoha filtrů podle stavu objednávky. Mezi nejpoužívanější patří např. **přijatá**, **storno**, **odesláno (na cestě)**.
 	- **Aplikace** - možnost filtrovat objednávky podle jednotlivých aplikací.
-	
-	- **Vytvořeno od / do** - možnost výběru intervalu, ve kterém chcete zobrazit hledané objednávky.
-
-:::tip
-	Pokud vyberete pouze **datum od**, zobrazí se všechny objednávky od daného data až k aktuálnímu dni.
-:::
-	 
-	 - **Seřadit podle** - možnost výběru, zda chcete řadit od **nejnovějších** či **nejstarších** objednávek. Dále lze řadit podle **čísla objednávky** a **doby poslední změny**.
-	 - **Filtrování podle stavu** - zde je možné filtrovat objednávky podle základních stavů, např. **Nevyřízená**, **Vyřizuje se**, **Stornována**.
-	 
+		 
 ---
 
 ### Akce se objednávkami
