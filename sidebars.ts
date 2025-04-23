@@ -135,7 +135,7 @@ const sidebars: SidebarsConfig = {
                     label: 'Objednávky',
                     items: [
                         'documentation/settings/orders/order-settings',
-                        'documentation/settings/orders/order-picking',
+                        // 'documentation/settings/orders/order-picking',
                         'documentation/settings/orders/order-payment',
                         'documentation/settings/orders/order-states'
                     ],
