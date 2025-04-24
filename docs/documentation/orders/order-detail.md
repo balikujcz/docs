@@ -20,7 +20,7 @@ Toto menu obsahuje na své levé části číslo objednávky a ovládací prvky 
 - **Uložit změny** - Toto tlačítko slouží k uložení proběhlých změn v objednávce. Objeví se při změně stavu objednávky nebo stavu zaplacení. Pokud se nezobrazí, znamená to, že nebyly provedeny žádné změny vyžadující uložení.
 - **Tracking page** - Zde můžete zobrazit naši stránku sledování zásilky. Po kliknutí na tlačítko se zobrazí stránka sledování zásilky, která je dostupná pro zákazníka.
 - **Faktura** - Zde můžete vytvořit fakturu k objednávce. Po kliknutí na tlačítko se zobrazí formulář pro vytvoření faktury. Zde je nutno vyplnit všechny potřebné údaje a kliknout na tlačítko **Vytvořit fakturu**. Lze také rovnou poslat fakturu emailem zákazníkovi.
-- **Tisknout objendávku v PDF** - kliknutím bude stažen PDF soubor obsahující detail objednávky.
+- **Tisknout objednávku v PDF** - kliknutím bude stažen PDF soubor obsahující detail objednávky.
     
 
 ## Přehled zboží v objednávce
@@ -86,6 +86,8 @@ Lze také provádět tyto akce:
 - **Detail** - zobrazí detail faktury.
 - **Odeslat emailem** - zobrazí formulář pro odeslání faktury emailem.
 - **Upravit** - zde budete přesměrování na stránku pro úpravu faktury.
+
+Více o informací naleznete v sekci **Fakturace -> Vytvoření faktury**.
 
 ## Historie změn objednávky
 Tato sekce zobrazuje historii změn objednávky. Zde můžete vidět, kdo a kdy provedl změnu v objednávce. Historie změn je důležitá pro sledování změn v objednávce a pro případné reklamace.
