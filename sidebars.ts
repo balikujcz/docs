@@ -52,6 +52,7 @@ const sidebars: SidebarsConfig = {
                 'documentation/orders/order-detail',
                 'documentation/orders/order-create-printing',
                 /*'documentation/orders/order-picking',*/
+                'documentation/orders/order-completion'
             ],
              
         },
