@@ -66,7 +66,7 @@ Při kompletaci je nutno mít vyplněny tyto parametry:
 - **Dopravce** - zvolený dopravce pro objednávku.
 - **Počet položek** - počet balíků, které budou vytvořeny při automatickém vytvoření zásilky.
 - **Připojištění** - připojištění zásilky.
-- **Nastavení parametrů zásilek** - nastavení parametrů zásilek, jako je hmostnost a velikost, potřebných pro automatické vytvoření zásilky dle typu dopravy
+- **Nastavení parametrů zásilek** - nastavení parametrů zásilek, jako je hmotnost a velikost, potřebných pro automatické vytvoření zásilky dle typu dopravy
 
 <!--Umožňuje dokončit kompletace objednávky a přepnout objednávku do zvoleného stavu. Současně s tím je možné na zvolené tiskárně rovnou vytisknout štítek pro zásilku. 
 Pokud jsou všechny položky kompletovány, stav kompletace u objednávky se nastaví na **Kompletace dokončen**. V opačném případě, kdy jsou vypickovány pouze některé položky, po dokončení bude stav u objednávky nastaven na **Rozpracovaný kompletace**.
