@@ -307,13 +307,13 @@ const sidebars: SidebarsConfig = {
                 },
             ],
         },
-        {
-            type: 'category',
-            label: 'Objednávky',
-            items: [
-                'video/orders/picking',
-            ],
-        },
+        //{
+        //    type: 'category',
+        //    label: 'Objednávky',
+        //    items: [
+        //        'video/orders/picking',
+        //    ],
+        //},
     ]
 
 };
