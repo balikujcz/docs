@@ -52,7 +52,7 @@ V detailu kompletace funguje automaticky skenování položek pomocí čárovéh
 
 ### Stavy položek v kompletaci
 Položky v kompletaci mohou mít několik stavů:
-- **Částečně kompletováno** - položka byla naskenována, ale ne všechny kusy - zobrazuje se oranžově.
+- **Částečně kompletováno** - položka byla naskenována, ale ne všechny kusy - zobrazuje se žlutě.
 - **Kompletováno** - u položky byly naskenovány všechny kusy - zobrazuje se zeleně.
 - **Nekompletováno** - položka ještě nebyla naskenována - zobrazuje se šedě.
 
