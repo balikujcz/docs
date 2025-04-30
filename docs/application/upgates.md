@@ -44,18 +44,6 @@ V naší aplikaci přejděte do seznamu aplikací **Nastavení -> Aplikace**. Zd
 
 Tímto jednoduchým postupem získáte přístup k výhodám našeho doplňku pro Upgates a můžete začít využívat jeho pokročilé funkcionality pro optimalizaci vašeho e-shopu.
 
-
-## Manuální aktivace
-
-U tohoto způsobu budou v blízké budoucnosti zavedeny placené limity počtu odeslaných požadavků, proto doporučujeme aktivovat aplikaci přes ověřený doplněk. 
-
-Aktivovat aplikaci si můžete v naší administraci v sekci **Nastavení** -> **Aplikace** -> **Přidat aplikaci** -> **Upgates**. 
-Pro aktivaci aplikace budete potřebovat přístupové údaje k API rozhraní Upgates. Tyto údaje získáte v administraci svého obchodu v sekci **Doplňky** ->
-**API**.
-
-Více informací o API přístupech v e-shopovém řešení Upgates naleznete na adrese [https://www.upgates.cz/api-v2 ↗️](https://www.upgates.cz/api-v2) nebo v 
-oficiální dokumentaci na [https://upgatesapiv2.docs.apiary.io ↗️](https://upgatesapiv2.docs.apiary.io)
-
 ### Vytvoření přístupových údajů 
 
 Pro úspěšné napojení na Upgates potřebujete vytvořit si nový Token. Postup vytvoření nového tokenu, pokud již nemáte existující, je následující:
@@ -132,6 +120,21 @@ V dialogovém okně, které se Vám zobrazí zadejte:
 Vše potvrdíte kliknutím na tlačítko **Přidat dopravu**.
 
 Při vytváření aplikace Upgates dojde k automatickému namapování již přidaných dopravců v aplikaci Balíkuj. Pokud chcete provést změny, můžete využít tlačítko **Upravit**.
+
+
+
+## Manuální aktivace
+
+U tohoto způsobu napojení jsou již zavedeny placené limity počtu odeslaných požadavků ze strany **Upgates**, proto doporučujeme aktivovat aplikaci přes ověřený doplněk. 
+Manuální aktivaci již tedy **nedoporučujeme**.
+
+Pouze pro pokročilé uživatele, kteří  nechtějí používat ověřený doplněk.
+Aktivovat aplikaci si můžete v naší administraci v sekci **Nastavení** -> **Aplikace** -> **Přidat aplikaci** -> **Upgates**. 
+Pro aktivaci aplikace budete potřebovat přístupové údaje k API rozhraní Upgates. Tyto údaje získáte v administraci svého obchodu v sekci **Doplňky** ->
+**API**.
+
+Více informací o API přístupech v e-shopovém řešení Upgates naleznete na adrese [https://www.upgates.cz/api-v2 ↗️](https://www.upgates.cz/api-v2) nebo v 
+oficiální dokumentaci na [https://upgatesapiv2.docs.apiary.io ↗️](https://upgatesapiv2.docs.apiary.io)
 
 :::info
 Pokud narazíte na problémy při aktivaci konkrétního dopravce nebo při mapování služeb, můžete se obrátit na naši podporu. Stačí napsat na info@balikuj.cz nebo zavolat na naše telefonní číslo, kde vám rádi pomůžeme s jakýmikoli technickými nebo konfiguračními otázkami
