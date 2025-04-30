@@ -23,7 +23,7 @@ V sekci přehledu objednávek se v hlavičce stránky nad filtrovacím rozhraní
 	- **Dnešní objednávky** - počet dnešních objednávek v systému.
 	- **Celkem objednávek** - celkový počet Vašich objednávek v systému.
 	- **Nekompletované** - počet objednávek evidovaných jako nekompletované.
-	- **Nazaplacené** - počet objednávek, k nimž nebyla evidována platba.
+	- **Nezaplacené** - počet objednávek, k nimž nebyla evidována platba.
 
 
 ### Filtrování objednávek
@@ -104,6 +104,14 @@ Pro zobrazení jednotlivých položek objednávky je nutné mít aktivní volbu 
 	- **Počet balíků** - zobrazuje počet balíků, které budou vytvořeny při automatickém vytvoření zásilky. Při změně hodnoty bude změna automaticky uložena.
 	- **Celková hmotnost** - zobrazuje celkovou hmotnost objednávky pro automatické vytvoření zásilky. Po zvolení nové hodnoty bude změna automaticky uložena.
 	---
+
+
+## Skenování čárových kódů v přehledu objednávek
+Zde lze provádět také **kompletaci** objednávek kompletně bez přístupu ke klávesnici a myši. Stačí mít puštěnou čtečku čárových kódů a skenovat čárové kódy objednávek.
+Jakmile naskenujete čárový kód (ať již z detailu objednávky v PDF nebo z vlastního čárového kódu), tak se Balíkuj pokusí vyhledat objednávku s daným číslem.
+Pokud objednávka existuje (vždy se bere první objednávka), dojde k přepnutí na kompletaci položek objednávky.
+
+Pro více informací o kompletaci navštivte [Kompletaci](/docs/documentation/orders/order-completion).
 
 
 ### Objednávka v PDF

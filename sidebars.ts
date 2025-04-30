@@ -137,6 +137,7 @@ const sidebars: SidebarsConfig = {
                     items: [
                         'documentation/settings/orders/order-settings',
                         // 'documentation/settings/orders/order-picking',
+                        'documentation/settings/orders/order-completion',
                         'documentation/settings/orders/order-payment',
                         'documentation/settings/orders/order-states'
                     ],

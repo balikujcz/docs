@@ -39,9 +39,10 @@ U každé položky naleznete následující informace:
 
 
 ## Kompletace objednávky
-- **Kompletace** - slouží ke kompletaci objednávky. Zde provedete veškeré kroky, které jsou potřeba k tomu, abyste objednávku mohli odeslat. Kompletace objednávky je důležitý krok, který byste měli provést před odesláním objednávky zákazníkovi.
+**Kompletace** - slouží ke kompletaci objednávky. Zde provedete veškeré kroky, které jsou potřeba k tomu, abyste objednávku mohli odeslat. Kompletace objednávky je důležitý krok, který byste měli provést před odesláním objednávky zákazníkovi.
 Omezíte tak chybovost a zjednodušíte si práci. Kompletaci objednávky provedete kliknutím na tlačítko **Kompletovat**. Po kliknutí se zobrazí formulář pro kompletaci objednávky. Zde je nutno vyplnit všechny potřebné údaje a kliknout na tlačítko **Kompletovat objednávku**.
-- Pro více informací o kompletaci navštivte [Kompletaci](/docs/documentation/orders/order-completion).
+
+Pro více informací o kompletaci navštivte [Kompletaci](/docs/documentation/orders/order-completion).
 
 ## Základní informace
 Zde naleznete základní informace o objednávce:

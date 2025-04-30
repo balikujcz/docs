@@ -74,5 +74,5 @@ Picking objednávky můžete zrušit najetím dropdown u tlačítka **Dokončit 
 
 1. Mít v ideálním případě HW čtečku čárových kódů, např. Virtuos HW-855A, na které sami testujeme aplikaci
 2. Nastavit si stavy objednávek, které chcete zobrazovat v Pickingu
-3. Nastavit si, jak se bude aplikace chovat po dokončení picking nebo naskenování všech položek. Pokud chcete mít automatizovaný Picking bez použití klávecnice a myši, je třeba nastavit volbu **Akce po dokončení pickingu** na hodnotu **Tisk štítků na tiskárně a přesunutí na seznam objednávek**.
+3. Nastavit si, jak se bude aplikace chovat po dokončení picking nebo naskenování všech položek. Pokud chcete mít automatizovaný Picking bez použití klávesnice a myši, je třeba nastavit volbu **Akce po dokončení pickingu** na hodnotu **Tisk štítků na tiskárně a přesunutí na seznam objednávek**.
 
