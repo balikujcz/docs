@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Tracking Page
+# Nastavení Tracking Page
 Pro sledování objednávek a zásilek v reálném čase můžete využít naši **Tracking Page**. Tato stránka je velmi přínosná - umožní Vašim zákazníkům sledovat stav objednávek a zásilek, které jste vytvořili v našem systému. 
 Vaši zákazníci ihned vidí informace o stavu své objednávky a zásilky, **kontakt na výdejní místo, zobrazení výdejního místa na mapě** a mnoho dalšího.
 
@@ -13,7 +13,7 @@ Nastavení Tracking Page máme v rámci Balíkuj implementován prostřednictví
 Pro představu lze shlédnout naše [Demo ↗️](https://tt.balikuj.cz/cs/ce02c2ac-77a6-47ba-8f97-dd7bd6d4a886)
 
 
-![Tracking Page](/img/order/tracking/overview.png)
+![Tracking Page](/img/settings/tracking/overview.png)
 
 
 ## Nastavení Tracking Page
@@ -35,5 +35,5 @@ V záložce **Vzhled** si můžete nastavit logo a další prvky, které se na s
 ### Moduly
 Jednotlivé moduly na stránce lze seřadit podle Vašich preferencí a potřeb. Můžete si také nastavit, které moduly se mají zobrazit a které ne. Lze také zobrazit modul pro propagaci **doporučených produktů**.
 
-![Moduly](/img/order/tracking/modules.png)
+![Moduly](/img/settings/tracking/modules.png)
 

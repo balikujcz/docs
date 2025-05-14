@@ -53,7 +53,6 @@ const sidebars: SidebarsConfig = {
                 'documentation/orders/order-create-printing',
                 /*'documentation/orders/order-picking',*/
                 'documentation/orders/order-completion',
-                'documentation/orders/order-tracking',
             ],
 
         },
@@ -160,19 +159,26 @@ const sidebars: SidebarsConfig = {
                 },
                 {
                     type: 'category',
-                    label: 'Zásilky',
+                    label: 'Tracking Page',
                     items: [
-                        'documentation/settings/packages/package-settings',
+                        'documentation/settings/tracking/tracking-settings',
                     ],
                 },
                 {
                     type: 'category',
-                    label: 'Podpora',
+                    label: 'Zásilky',
                     items: [
-                        'documentation/settings/support/basic-info',
-                        'documentation/settings/support/discussion',
+                        'documentation/settings/packages/package-settings',
                     ],
                 }
+            ],
+        },
+        {
+            type: 'category',
+            label: 'Podpora',
+            items: [
+                'documentation/settings/support/basic-info',
+                'documentation/settings/support/discussion',
             ],
         },
         {

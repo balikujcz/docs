@@ -18,7 +18,7 @@ Toto menu obsahuje na své levé části číslo objednávky a ovládací prvky 
 - **Stav objednávky** - Zde můžete aktualizovat stav objednávky. Po kliknutí na tlačítko se zobrazí seznam všech stavů, které může objednávka nabývat. Po zvolení nové hodnoty je nutno nový stav objednávky uložit pomocí tlačítka **Uložit změny**.
 - **Datum vytvoření** - datum a čas vytvoření objednávky.
 - **Uložit změny** - Toto tlačítko slouží k uložení proběhlých změn v objednávce. Objeví se při změně stavu objednávky nebo stavu zaplacení. Pokud se nezobrazí, znamená to, že nebyly provedeny žádné změny vyžadující uložení.
-- **Tracking page** - Zde můžete zobrazit naši stránku sledování zásilky. Po kliknutí na tlačítko se zobrazí stránka sledování zásilky, která je dostupná pro zákazníka. Více v sekci **Objednávky -> Tracking page**.
+- **Tracking Page** - Zde můžete zobrazit naši stránku sledování zásilky. Po kliknutí na tlačítko se zobrazí stránka sledování zásilky, která je dostupná pro zákazníka. Více v sekci **Nastavení -> Tracking Page**.
 - **Faktura** - Zde můžete vytvořit fakturu k objednávce. Po kliknutí na tlačítko se zobrazí formulář pro vytvoření faktury. Zde je nutno vyplnit všechny potřebné údaje a kliknout na tlačítko **Vytvořit fakturu**. Lze také rovnou poslat fakturu emailem zákazníkovi.
 - **Tisknout objednávku v PDF** - kliknutím bude stažen PDF soubor obsahující detail objednávky.
     
