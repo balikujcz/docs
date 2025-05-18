@@ -29,7 +29,7 @@ POST https://api.balikuj.cz/api/Package/Find
 Kompletní seznam parametrů pro jednotlivé endpointy naleznete v dokumentaci [https://balikuj.docs.apiary.io/](https://balikuj.docs.apiary.io/).
 
 ## Detail zásilky
-Detail zásilky získáte zasláním GET požadavku na endpoint `/Package/{koddopravce}/{id}/Detail`. `{koddopravce}` je kód dopravce a `{id}` je ID hlavní zásilky. Tento endpoint vrací detailní informace o zásilce včetně odkazu pro sledování na webu dopravce a další informace.
+Detail zásilky získáte zasláním GET požadavku na endpoint `/{koddopravce}/{id}/Detail`. `{koddopravce}` je kód dopravce a `{id}` je ID hlavní zásilky. Tento endpoint vrací detailní informace o zásilce včetně odkazu pro sledování na webu dopravce a další informace.
 
 ## Získání kódu dopravce
 
