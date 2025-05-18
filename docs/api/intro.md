@@ -16,7 +16,7 @@ Kompletní specifikaci API rozhraní naleznete na adrese **[https://balikuj.docs
 :::
 
 ## Základní informace
-API rozhraní je dostupné na adrese [`https://api.balikuj.cz`](https://api.balikuj.cz) a je založeno na REST architektuře. Všechny požadavky na API rozhraní musí být zabezpečeny pomocí [autentizace](/docs/api/pripojeni-do-api) a jsou přístupné pouze přes šifrované HTTPS spojení. Veškerá komunikace s API rozhraním probíhá pomocí formátu dat v JSON (požadavky i odpovědi).
+API rozhraní je dostupné na adrese [`https://api.balikuj.cz`](https://api.balikuj.cz) a je založeno na REST architektuře. Všechny požadavky na API rozhraní musí být zabezpečeny pomocí [autentizace](/docs/api/pripojeni-do-api) a jsou přístupné pouze přes šifrované HTTPS spojení. Veškerá komunikace s API rozhraním probíhá pomocí formátu dat v JSON - `Content-Type: application/json` (požadavky i odpovědi).
 
 
 ## Limity API rozhraní
@@ -24,11 +24,11 @@ Pro ochranu před nadbytečným zatěžováním API rozhraní jsou nastaveny lim
 
 
 ## Formát dat
-Jak již bylo několikrát zmíněno, veškerá komunikace probíhá ve formátu JSON. Názvy hodnot jsou v tzv. **camelCase** formátu.
+Jak již bylo několikrát zmíněno, veškerá komunikace probíhá ve formátu JSON. Názvy hodnot jsou v tzv. **camelCase** formátu. Vlastnosti v JSON jsou case-insensitive, ale doporučujeme dodržovat formát z dokumentace.
 
 ## API klienti
 Pro snadnější práci s API rozhraním jsou k dispozici API klienti pro několik programovacích jazyků. API klienti jsou k dispozici pro následující programovací jazyky:
-- [PHP](/docs/api/clients/php)
+<!-- - [PHP](/docs/api/clients/php) -->
 - [C# .NET](/docs/api/clients/dotnet)
 
 ## Stavové kódy
@@ -39,6 +39,8 @@ Pokud je požadavek zpracován úspěšně, je vrácena odpověď s HTTP stavov�
 
 ### Kód 400 - Bad Request
 Požadaven nebyl zpracovaná, jelikož došlo k chybě. Chyba může být například při validaci vstupních údajů (nezadány povinné údaje) nebo například duplicitní ID objednávky apod.
+
+Všechny požadavky jejichž `StatusCode není Success` logujeme interně a ihned řešíme na pozadí.
 
 ### Kód 500 - Internal Server Error
 Tento stavový kód je vrácen, pokud nastane chyba na straně serveru. Všechny chyby na straně serveru jsou automaticky zaznamenány a odeslány našemu vývojářskému týmu, který se pokusí chybu co nejdříve odstranit. Pokud by problém přetrvával, neváhejte nás kontaktovat na emailu [`info@balikuj.cz`](mailto:info@balikuj.cz), odstraníme jej co nejdříve.

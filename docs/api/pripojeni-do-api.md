@@ -5,14 +5,18 @@ sidebar_position: 1
 # Připojení do API
 Do API rozhraní se přihlásíte pomocí svých přihlašovacích údajů do aplikace [`https://app.balikuj.cz`](https://app.balikuj.cz). Pokud jste zapomněli heslo, můžete si jej obnovit pomocí kliknutí na odkaz [`Zapomněli jste heslo?`](https://app.balikuj.cz/auth/forgot-password).
 
+V administraci Balíkuj si můžete také zřídit další účet s omezenými právy nebo můžete vytvořit trvalý token, který expiruje až za 365 dnů a můžete jej používat pro přístup do API rozhraní.
+
 ## Adresa API rozhraní
-API rozhraní je dostupné na adrese [**`https://api.balikuj.cz/v1`**](https://api.balikuj.cz/v1).
+API rozhraní je dostupné na adrese [**`https://api.balikuj.cz/api`**](https://api.balikuj.cz/api).
 
 ## AUTH token
-Pro práci s API rozhraním je třeba vygenerovat tzv. AUTH token, který se používá pro autentizaci u jednotlivých požadavků, které autentizaci vyžadují. AUTH token se generuje pomocí metody **`/Account/Login`**.
+Pro práci s API rozhraním je třeba vygenerovat tzv. AUTH token, který se používá pro autentizaci u jednotlivých požadavků, které autentizaci vyžadují. AUTH token se generuje pomocí metody **`/Account/Login`** viz níže.
 
 ### Platnost AUTH tokenu
-Při zaslání každé requestu do API rozhraní dojde k prodloužení platnosti tokenu o **2 hodiny**. Pokud nebude zaslán žádný request do API rozhraní do 2 hodin, dojde k automatickému odhlášení a AUTH token bude neplatný.
+Při zaslání každé requestu do API rozhraní dojde k prodloužení platnosti tokenu o **2 hodiny**. Pokud nebude zaslán žádný request do API rozhraní do 2 hodin, dojde k automatickému zneplatnění tokenu a AUTH token bude neplatný - musíte se přihlásit znovu.
+
+Je zakázáno přihlašovat se před každým odesláním požadavku do API rozhraní. Systém při takových pokusech může omezit nebo znepřístupnit celý účet. Vždy si vytvořte jeden Token, se kterým dále pracujete.
 
 ### Zadávání AUTH tokenu
 AUTH token se zadává ke každému request do hlavičky **`X-BalikujAuthToken`**. Pokud neuvedete token do hlavičky každého requestu, dojde k chybě s HTTP stavovým kódem 401 s chybovou hláškou **`Token missing`**. Pokud zadáte neplatný nebo expirovaný token, dojde k chybě s HTTP stavovým kódem 401 s chybovou hláškou **`Invalid token`**.
@@ -23,10 +27,11 @@ AUTH token se zadává ke každému request do hlavičky **`X-BalikujAuthToken`*
 Níže je uveden příklad přihlášení do API rozhraní ve formátu JSON. Pokud se přihlášení do API rozhraní nepovede, je vrácena také odpověď ve formátu JSON.
 
 ```json showLineNumbers
+POST https://api.balikuj.cz/api/Account/Login
 {
   "email": "info@email.cz",
   "password": "pa$$w0rd",
-  "language": "cs"
+  "language": "cs-cz"
 }
 ```
 

@@ -197,14 +197,25 @@ const sidebars: SidebarsConfig = {
             items: [
                 'api/intro',
                 'api/pripojeni-do-api',
-                //{
-                //    type: 'category',
-                //    label: 'Typy klientů',
-                //    items: [
-                //        'api/clients/dotnet',
-                //        'api/clients/php',                    
-                //    ],
-                //},
+                'api/strankovani',
+                {
+                    type: 'category',
+                    label: 'Zásilky',
+                    items: [
+                        'api/zasilky/sprava-zasilek',
+                        'api/zasilky/vytvoreni-zasilky',
+                        'api/zasilky/detail',
+                        'api/zasilky/tisk-stitku-zasilek',
+                        'api/zasilky/sledovani-zasilek',
+                    ],
+                },
+                /*{
+                    type: 'category',
+                    label: 'Objednávky',
+                    items: [
+                        'api/objednavky/objednavky-uvod',
+                    ],
+                },*/
             ],
         },
     ],
